@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maison Café — Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#f3e6d6; --ink:#2a1c12; --clay:#8a3b22; --line:#dfc9b1; --paper:#faefe4; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { background:var(--bg); color:var(--ink); font-family:Outfit,sans-serif; font-size:16px; line-height:1.6; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { width:min(1080px, calc(100% - 40px)); margin:0 auto; }
+    header { display:flex; justify-content:space-between; align-items:center; padding:26px 0 18px; }
+    .logo { font-family:Fraunces,serif; font-style:italic; font-size:28px; font-weight:500; }
+    nav { display:flex; gap:22px; font-size:13px; letter-spacing:.08em; text-transform:uppercase; }
+    .hero { padding:24px 0 48px; }
+    h1 { font-family:Fraunces,serif; font-weight:500; font-size:clamp(52px,9vw,108px); line-height:.9; letter-spacing:-.03em; }
+    h1 em { font-style:italic; color:var(--clay); }
+    .deck { margin-top:22px; max-width:36ch; color:#5a4436; }
+    .rule { height:1px; background:var(--line); border:0; margin:10px 0 36px; }
+    .menu { display:grid; grid-template-columns:1fr 1fr; gap:48px 64px; padding-bottom:56px; }
+    h2 { font-family:Fraunces,serif; font-weight:500; font-size:32px; margin-bottom:18px; }
+    .item { display:flex; justify-content:space-between; gap:16px; padding:10px 0; border-bottom:1px dotted var(--line); }
+    .item span { color:var(--clay); font-variant-numeric:tabular-nums; }
+    .item small { display:block; color:#7a6252; font-size:13px; }
+    .strip { background:var(--clay); color:var(--paper); padding:40px 0; }
+    .strip .wrap { display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; }
+    .strip h3 { font-family:Fraunces,serif; font-weight:500; font-size:22px; margin-bottom:8px; }
+    footer { padding:28px 0 40px; display:flex; justify-content:space-between; font-size:12px; letter-spacing:.08em; text-transform:uppercase; color:#7a6252; }
+    .badge { position:fixed; top:14px; right:14px; z-index:5; border:1px solid var(--ink); background:var(--bg); font-size:10px; letter-spacing:.14em; text-transform:uppercase; padding:5px 8px; }
+    @media (max-width:800px){
+      nav { display:none; }
+      .menu, .strip .wrap, footer { grid-template-columns:1fr; }
+      h1 { font-size:64px; }
+      .wrap { width:calc(100% - 32px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="badge">Concept project</div>
+  <div class="wrap">
+    <header>
+      <div class="logo">Maison Café</div>
+      <nav><a href="#menu">Menu</a><a href="#hours">Hours</a><a href="#hours">Visit</a></nav>
+    </header>
+    <hr class="rule">
+    <section class="hero">
+      <h1>Bread,<br>slow coffee,<br><em>open tables.</em></h1>
+      <p class="deck">A warm editorial concept for a neighbourhood room — written and set as a study, not as a real café.</p>
+    </section>
+    <section class="menu" id="menu">
+      <div>
+        <h2>Morning</h2>
+        <div class="item"><div>Cardamom bun<small>Butter, sugar, warm spice</small></div><span>4.20</span></div>
+        <div class="item"><div>Sourdough &amp; jam<small>Daily loaf, seasonal preserve</small></div><span>5.50</span></div>
+        <div class="item"><div>Yoghurt &amp; rye<small>Honey, toasted seeds</small></div><span>6.80</span></div>
+        <div class="item"><div>Filter / espresso<small>Rotating beans, simple milk</small></div><span>3.20</span></div>
+      </div>
+      <div>
+        <h2>Noon</h2>
+        <div class="item"><div>Season soup<small>Bread on the side</small></div><span>9.50</span></div>
+        <div class="item"><div>Green plate<small>Leaves, grains, a sharp dressing</small></div><span>12.00</span></div>
+        <div class="item"><div>Toast, late<small>Cheese or tomato, depending on the day</small></div><span>8.50</span></div>
+        <div class="item"><div>Wine, by the glass<small>If the evening service is open</small></div><span>7.00</span></div>
+      </div>
+    </section>
+  </div>
+  <section class="strip" id="hours">
+    <div class="wrap">
+      <div><h3>Hours</h3><p>Wed–Fri 08–16<br>Sat–Sun 09–15<br>Mon–Tue kitchen closed</p></div>
+      <div><h3>The room</h3><p>A fictional café, set in a quiet street. This page does not represent a real business or address.</p></div>
+      <div><h3>A table</h3><p>In a live project, a short form or a booking link would sit here. Nothing can be reserved on this concept.</p></div>
+    </div>
+  </section>
+  <div class="wrap">
+    <footer>
+      <span>Maison Café</span>
+      <span>Concept project — not a real café</span>
+    </footer>
+  </div>
+</body>
+</html>

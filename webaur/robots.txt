@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Concept HTML studies are for design and screenshots; prefer the studio pages.
+Disallow: /concepts/
+
+Sitemap: https://webaur.com/sitemap.xml
