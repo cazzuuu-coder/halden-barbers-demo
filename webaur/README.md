@@ -1,142 +1,111 @@
-# WEBAUR studio website
+# WEBAUR website (v2)
 
-A static, multi-page site for WEBAUR, an independent web design studio. Plain HTML, CSS and JavaScript — no build step.
+Independent web design studio site — static HTML, CSS and JavaScript. No required build step.
 
-English is the current language (`lang="en"` on every page). The same pages are also copied under `en/`, with canonical URLs pointing at the root English pages, so Finnish (`/fi/`) and French (`/fr/`) can be added later without moving assets. When those languages exist, add `hreflang` alternates on every page and decide whether the root URL should redirect by language or stay English.
-
-Placeholder production domain in `sitemap.xml`, `robots.txt`, canonical tags and Open Graph URLs: `https://webaur.com`. Replace this everywhere once a real domain is connected.
-
-## Pages
-
-- `index.html` — home
-- `services.html` — packages and care plans
-- `work.html` — concept projects
-- `about.html`
-- `contact.html` — Netlify form
-- `privacy.html` — draft notice with placeholders
-- `thanks.html` — form confirmation (`noindex`)
-- `404.html`
-- `work/barber-studio.html`, `work/autohaus.html`, `work/maison-cafe.html`
-- `en/` — structural copy of the above
-- `concepts/` — the original concept sites used for screenshots (`noindex`; not in the sitemap)
-
-All internal links and asset paths are relative, so the site also works from a subfolder such as `https://user.github.io/repo/webaur/`.
-
-## Concept mockups
-
-The work images are not stock or generic AI pictures. Four small sites were built as real HTML (`concepts/hale-barber`, `concepts/autohaus`, `concepts/maison-cafe`, `concepts/vale-counsel`), opened in a browser at 1440×900 and 390×844, and saved as WebP with JPEG fallbacks. Every project is labelled **Concept project**. There are no invented testimonials, statistics, awards, address, phone number, business ID or social profiles.
-
-## Contact form (Netlify Forms)
-
-`contact.html` is a real Netlify form:
-
-- `name="contact"` and `data-netlify="true"`
-- hidden `form-name` field
-- honeypot field `bot-field` (`data-netlify-honeypot`)
-- Fields: Name, Business name, Email, Type of project, Estimated budget, Project description
-- `action="thanks.html"`
-- required privacy-consent checkbox and a link to the privacy policy
-- Alternative contact shown as `hello@webaur.com` (placeholder until the mailbox is configured)
-
-After a Netlify deploy, send a test message and confirm it appears under **Site configuration → Forms**, and that the thank-you page loads. Until the site is on Netlify, submitting the form from a local folder or another host will not deliver mail.
-
-### Formspree alternative (Cloudflare Pages)
-
-Cloudflare Pages does not provide Netlify Forms.
-
-1. Create a form at [Formspree](https://formspree.io/) and confirm the mailbox.
-2. On `contact.html` (and `en/contact.html`), change the `<form>` tag to something like:
-
-   ```html
-   <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-   ```
-
-3. Remove `data-netlify`, `netlify`, the hidden `form-name` field, and the Netlify honeypot (or keep a unused field; Formspree has its own spam tools).
-4. Set `action` to Formspree, and either use Formspree’s redirect to `thanks.html` (`_next` hidden field) or their AJAX mode.
-5. Read Formspree’s data-processing and region options, update the privacy notice, and send a test.
-
-Basin and Web3Forms are similar alternatives. Choose one EU-friendly option and name it in the privacy notice and in client contracts.
-
-## Deploy
-
-### Netlify, drag and drop
-
-1. Sign in at [Netlify](https://app.netlify.com/).
-2. Go to **Sites → Add new site → Deploy manually** and drop the unzipped site folder (the folder that contains `index.html`, not a parent folder).
-3. Open the generated `*.netlify.app` URL, walk every page, and send a test form.
-
-### Netlify, Git
-
-1. Put this folder in a Git repository (GitHub, GitLab or Bitbucket).
-2. In Netlify: **Add new site → Import an existing project**, pick the repo.
-3. Build command: leave empty. Publish directory: the folder that contains `index.html` (`.` if the repo root is this site).
-4. Deploy and test the form.
-
-### Cloudflare Pages
-
-1. In [Cloudflare](https://dash.cloudflare.com/), open **Workers & Pages → Create → Pages**.
-2. Connect the Git repository, or upload the folder.
-3. Build command: empty. Output directory: `/` (this folder).
-4. Connect the form through Formspree or another service, as above — do not expect Netlify Forms to run here.
-
-### Custom domain
-
-1. Register the domain with a registrar (see the name check notes in the hand-off; a registry “not found” is not a reservation).
-2. In Netlify: **Domain management → Add a domain**, or in Cloudflare Pages: **Custom domains**.
-3. At the registrar, either:
-   - use the host’s nameservers (simplest with Cloudflare), or
-   - add the `A` / `ALIAS` / `CNAME` records the host shows for the apex and `www`.
-4. Wait for DNS and for HTTPS to show as active.
-5. Replace `https://webaur.com` in `sitemap.xml`, `robots.txt`, canonical tags and Open Graph image URLs if the real domain is different.
-6. Do not host a paying client’s production site on GitHub Pages or on a free plan that can be withdrawn without notice. This studio site should also sit on a stable, preferably paid, plan once it is public.
-
-## Professional email
-
-Set up a mailbox on the same domain (for example `hello@webaur.com` or `casper@WEBAUR.com`) before putting the address on the site.
-
-Options:
-
-- **Zoho Mail** — often a reasonable start for a single domain; check current pricing and whether the free tier still exists in your country.
-- **Google Workspace** — paid, familiar, good if you already use Google.
-- **Mailbox from the registrar or a Finnish/EU host** — sometimes the simplest if the domain is already there.
-
-Whoever hosts the mail, add at least:
-
-- **MX** records, exactly as the mail host lists them.
-- **SPF** — a TXT record on the apex, naming only the services that may send as you.
-- **DKIM** — the TXT record(s) the mail host generates.
-- **DMARC** — a TXT record at `_dmarc`, starting conservatively (for example `p=none` with an aggregate report address), then tightening once mail flows.
-
-Wait for DNS to propagate, then send and receive a test from a phone and from a webmail window. Only then replace the placeholders in the footer, the contact page and the privacy notice. Put both the studio address and Casper’s own name on outgoing client mail.
-
-## Checklist — still needs real business details or external setup
-
-- [ ] Confirm the name and domains yourself (YTJ / PRH trade name, TMview, EUIPO, Traficom, the registrar). A check made on 9 November 2026 is not a reservation.
-- [ ] Register the business (typically a sole trader first), VAT, and prepayment register as advised separately.
-- [ ] Register `WEBAUR.com` and/or `WEBAUR.fi` if you still want them after those checks, then connect DNS.
-- [ ] Create the professional mailbox (MX, SPF, DKIM, DMARC) and put the real address on the site.
-- [ ] Fill every highlighted placeholder in `privacy.html` (legal name, business ID, address, email, retention period) and have the notice reviewed if you need it to be a legal document.
-- [ ] Add a visiting address and phone only if they are real.
-- [ ] Deploy to Netlify or Cloudflare Pages on a stable plan, connect the domain, and turn on HTTPS.
-- [ ] Activate and **test** the contact form (Netlify Forms or Formspree).
-- [ ] Put a data-processing arrangement in place with the form host.
-- [ ] Replace the placeholder domain in `sitemap.xml`, `robots.txt`, canonical and Open Graph tags if needed.
-- [ ] Write `/fi/` and `/fr/` translations when you are ready, and hook up `hreflang`.
-- [ ] Add analytics only with a documented tool and consent where required.
-- [ ] Publish real client work only with written permission.
-- [ ] Keep the written 590 € reference offer, deposit terms and contracts off this site until they exist as documents.
-- [ ] Optional: social profiles, once they are real and named consistently.
+This folder is a complete redesign of the earlier v1 site in `/workspace/webaur-site/`. v1 is left untouched.
 
 ## Local preview
 
-Any static server is enough, for example:
+From this folder:
 
 ```bash
-python3 -m http.server 8080
+python3 -m http.server 8766 --bind 127.0.0.1
 ```
 
-Then open `http://127.0.0.1:8080/`.
+Open `http://127.0.0.1:8766/`. All internal links are relative so the site can also be served from a GitHub Pages project subfolder (for example `https://user.github.io/webaur-v2/`).
 
-## Licence and credit
+## Pages
 
-Concept projects are fictional and labelled as such. Do not present them as client work. Site copy and design are for WEBAUR / Casper.
+- Studio: `index.html`, `services.html`, `work.html`, `about.html`, `contact.html`, `thanks.html`, `privacy.html`, `404.html`
+- Case studies: `work/barber-studio.html`, `work/detailing.html`, `work/maison-cafe.html`
+- Working concept demos: `demos/barber-studio/`, `demos/detailing/`, `demos/maison-cafe/`
+
+The three demos are independent design concepts, not paying-client work. Booking and reservation buttons scroll to a clearly labelled “concept — no real booking” note.
+
+## Deploy
+
+### Netlify (recommended for the contact form)
+
+1. Connect this folder as the site root (publish directory `.`, no build command).
+2. Netlify will detect the form in `contact.html` (`data-netlify="true"`, hidden `form-name`, honeypot `company-website`).
+3. In Netlify → Forms, confirm the `contact` form is listed and set the notification email to a real inbox.
+4. Successful submissions go to `thanks.html` (`action="thanks.html"`).
+5. `_redirects` maps unknown routes to `404.html`. `netlify.toml` sets basic security headers.
+
+### Cloudflare Pages
+
+1. Upload this folder, output directory `.`, no build command.
+2. Netlify Forms will **not** run on Cloudflare Pages. Connect Formspree (or another form endpoint) before launch — see below.
+3. `_headers` is included for Cloudflare/Netlify-style header files.
+
+### GitHub Pages
+
+Upload the folder (or `/docs`) and enable Pages. Use relative links as already written. The contact form will not send until you add Formspree or a similar endpoint.
+
+## Contact form configuration
+
+**Where it lives:** `contact.html` (the `<form>` element). Prefill of the optional budget field from `?package=starter|business|premium` is in `js/main.js`.
+
+**Netlify Forms (default):** already marked up. After deploy on Netlify, submit a test from the live URL and check the Forms inbox. The form does not pretend a message was sent unless the host actually accepted the POST and showed `thanks.html`. Opening `thanks.html` directly does not send anything; the page says so.
+
+**Formspree (Cloudflare Pages, GitHub Pages, or any static host):**
+
+1. Create a form at [formspree.io](https://formspree.io/) and copy the endpoint, e.g. `https://formspree.io/f/xxxxxxxx`.
+2. In `contact.html`, set `action="https://formspree.io/f/xxxxxxxx"` and `method="POST"`.
+3. You may keep `data-netlify` attributes; they are ignored off Netlify. You can also remove them.
+4. In Formspree, set the thank-you redirect to your live `thanks.html` URL, or keep Formspree’s own confirmation page.
+5. Record the endpoint in this README once it exists: `Formspree endpoint: [not configured]`.
+
+Do not add a JavaScript “message sent” alert that fires without a real submission.
+
+## Domain
+
+Canonical URLs and `sitemap.xml` / `robots.txt` use the placeholder domain `https://webaur.com`. That domain was not attached to this folder at build time. Earlier registry checks (9 November 2026, Europe/Paris) suggested `webaur.com` and `webaur.fi` were not in the respective RDAP results at that moment — that is not a reservation or a trademark clearance. Point DNS at Netlify or Cloudflare Pages after the name is registered, then replace the placeholder email.
+
+## Placeholders (replace before launch)
+
+- Email shown as **`hello@[your-domain]`**, visually marked as a placeholder — not a live inbox. Do not present `hello@webaur.com` as active until a mailbox exists.
+- No phone number or street address is listed.
+- Privacy policy: legal name, Y-tunnus, postal address, and analytics provider are marked with placeholders in `privacy.html`.
+- Canonical / Open Graph / sitemap host: `https://webaur.com`.
+- Formspree endpoint: not configured (only needed off Netlify).
+- Café and shop addresses in the demos are fictional and labelled as such.
+
+## Pricing copy
+
+Starter €490, Business €890, Premium €1,490. **Prices excl. VAT (Finnish VAT 25.5% added).** The final price depends on the scope of the project.
+
+## Language
+
+The site is in English. A small `EN` label in the header notes that Finnish can be added later. There is no `/en/` tree in this version.
+
+## Credits
+
+See `CREDITS.md` for every demo photograph, source URL and licence.
+
+## What was not completed or not fully tested
+
+- Unsplash photographer names could not be confirmed from live photo pages (pages were blocked). IDs and source URLs are listed; names should be filled in when those pages can be opened.
+- Finnish language pages were not built.
+- A real domain, mailbox and legal entity were not connected.
+- Lighthouse and Playwright results from the local preview are recorded in the delivery report. Scores can change on a live CDN.
+- No production analytics or cookie banner (none is configured).
+
+## QA and Lighthouse (local, 9 November 2026, Europe/Paris)
+
+Playwright was run on every studio page and all three demos at 390, 768 and 1440 CSS pixels: no console errors, no broken links or images (after lazy images were scrolled into view), no horizontal overflow (`scrollWidth > clientWidth`), mobile menus opened and closed, and internal CTAs resolved.
+
+Lighthouse (`npx lighthouse` with headless Chrome) on a local `python3 -m http.server`, after a contrast fix on secondary text:
+
+| Page | Form | Performance | Accessibility | Best Practices | SEO |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Home | mobile | 96 | 100 | 100 | 100 |
+| Home | desktop | 100 | 100 | 100 | 100 |
+| Work | mobile | 99 | 100 | 100 | 100 |
+| Work | desktop | 100 | 100 | 100 | 100 |
+| Contact | mobile | 100 | 100 | 100 | 100 |
+| Contact | desktop | 100 | 100 | 100 | 100 |
+| Hale Barber demo | mobile | 100 | 100 | 100 | 66 |
+| Hale Barber demo | desktop | 100 | 100 | 100 | 66 |
+
+The demo SEO score is lower because those pages are marked `noindex` (they are concept projects, not studio marketing pages). Secondary text colour was darkened from the brief’s `#777A74` to `#5E615C` so body copy meets WCAG AA contrast on `#F7F7F4` (the original pair is about 4.06:1).

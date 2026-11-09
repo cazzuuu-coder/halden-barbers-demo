@@ -1,0 +1,4717 @@
+{
+  "pages": {
+    "index.html@390": {
+      "url": "http://127.0.0.1:8766/index.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "services.html@390": {
+      "url": "http://127.0.0.1:8766/services.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "work.html@390": {
+      "url": "http://127.0.0.1:8766/work.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "about.html@390": {
+      "url": "http://127.0.0.1:8766/about.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "contact.html@390": {
+      "url": "http://127.0.0.1:8766/contact.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "thanks.html@390": {
+      "url": "http://127.0.0.1:8766/thanks.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "privacy.html@390": {
+      "url": "http://127.0.0.1:8766/privacy.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "404.html@390": {
+      "url": "http://127.0.0.1:8766/404.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "work/barber-studio.html@390": {
+      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "work/detailing.html@390": {
+      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "work/maison-cafe.html@390": {
+      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "demos/barber-studio/index.html@390": {
+      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#services",
+          "ok": true
+        },
+        {
+          "href": "#studio",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "demos/detailing/index.html@390": {
+      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#packages",
+          "ok": true
+        },
+        {
+          "href": "#finish",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "demos/maison-cafe/index.html@390": {
+      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#menu",
+          "ok": true
+        },
+        {
+          "href": "#hours",
+          "ok": true
+        },
+        {
+          "href": "#location",
+          "ok": true
+        },
+        {
+          "href": "#reserve",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "index.html@768": {
+      "url": "http://127.0.0.1:8766/index.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "services.html@768": {
+      "url": "http://127.0.0.1:8766/services.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "work.html@768": {
+      "url": "http://127.0.0.1:8766/work.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "about.html@768": {
+      "url": "http://127.0.0.1:8766/about.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "contact.html@768": {
+      "url": "http://127.0.0.1:8766/contact.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "thanks.html@768": {
+      "url": "http://127.0.0.1:8766/thanks.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "privacy.html@768": {
+      "url": "http://127.0.0.1:8766/privacy.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "404.html@768": {
+      "url": "http://127.0.0.1:8766/404.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "work/barber-studio.html@768": {
+      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "work/detailing.html@768": {
+      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "work/maison-cafe.html@768": {
+      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "demos/barber-studio/index.html@768": {
+      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#services",
+          "ok": true
+        },
+        {
+          "href": "#studio",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "demos/detailing/index.html@768": {
+      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#packages",
+          "ok": true
+        },
+        {
+          "href": "#finish",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "demos/maison-cafe/index.html@768": {
+      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#menu",
+          "ok": true
+        },
+        {
+          "href": "#hours",
+          "ok": true
+        },
+        {
+          "href": "#location",
+          "ok": true
+        },
+        {
+          "href": "#reserve",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "index.html@1440": {
+      "url": "http://127.0.0.1:8766/index.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "services.html@1440": {
+      "url": "http://127.0.0.1:8766/services.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "work.html@1440": {
+      "url": "http://127.0.0.1:8766/work.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "about.html@1440": {
+      "url": "http://127.0.0.1:8766/about.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "contact.html@1440": {
+      "url": "http://127.0.0.1:8766/contact.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "thanks.html@1440": {
+      "url": "http://127.0.0.1:8766/thanks.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "privacy.html@1440": {
+      "url": "http://127.0.0.1:8766/privacy.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "404.html@1440": {
+      "url": "http://127.0.0.1:8766/404.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "work/barber-studio.html@1440": {
+      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "work/detailing.html@1440": {
+      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "work/maison-cafe.html@1440": {
+      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "demos/barber-studio/index.html@1440": {
+      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#services",
+          "ok": true
+        },
+        {
+          "href": "#studio",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        },
+        {
+          "href": "#visit",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "demos/detailing/index.html@1440": {
+      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#packages",
+          "ok": true
+        },
+        {
+          "href": "#finish",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        },
+        {
+          "href": "#book",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "demos/maison-cafe/index.html@1440": {
+      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "cta": [
+        {
+          "href": "#main",
+          "ok": true
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "#menu",
+          "ok": true
+        },
+        {
+          "href": "#hours",
+          "ok": true
+        },
+        {
+          "href": "#location",
+          "ok": true
+        },
+        {
+          "href": "#reserve",
+          "ok": true
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    }
+  },
+  "previews": [
+    "/workspace/webaur-v2/previews/preview-home-desktop.png",
+    "/workspace/webaur-v2/previews/preview-home-mobile.png",
+    "/workspace/webaur-v2/previews/preview-work-desktop.png",
+    "/workspace/webaur-v2/previews/preview-demo-barber-desktop.png",
+    "/workspace/webaur-v2/previews/preview-demo-detailing-desktop.png",
+    "/workspace/webaur-v2/previews/preview-demo-maison-desktop.png"
+  ],
+  "failures": []
+}

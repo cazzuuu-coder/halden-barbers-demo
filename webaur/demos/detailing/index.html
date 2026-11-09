@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alto Detail — Concept project</title>
+  <meta name="description" content="A concept automotive detailing website designed by WEBAUR. Not a real business.">
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+  <link rel="icon" href="../../images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../images/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <p class="badge">Concept project</p>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="index.html"><b>AD</b> Alto Detail</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#finish">The finish</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap">
+      <div>
+        <p class="idx">Detailing concept / 02</p>
+        <h1>The finish is the first impression.</h1>
+        <p class="muted" style="margin:20px 0 28px;max-width:36ch">A dark, technical studio for paint, wheels and interior — designed as an independent concept, not a real workshop.</p>
+        <a class="btn" href="#book">Request a slot</a>
+      </div>
+      <div class="hero-visual">
+        <picture>
+      <source type="image/avif" srcset="images/porsche-1400.avif 1400w" sizes="(max-width:767px) 100vw, 50vw">
+      <source type="image/webp" srcset="images/porsche-800.webp 800w, images/porsche-1400.webp 1400w" sizes="(max-width:767px) 100vw, 50vw">
+      <img src="images/porsche-1400.jpg" alt="A dark sports car photographed from the rear three-quarter, low to the ground" width="1400" fetchpriority="high">
+    </picture>
+      </div>
+    </section>
+    <section class="section" id="packages">
+      <div class="wrap">
+        <p class="idx">Packages</p>
+        <h2>Work, priced clearly.</h2>
+        <div class="packages">
+          <article>
+            <p class="idx">01</p>
+            <h3>Essential</h3>
+            <p class="price">€189</p>
+            <ul>
+              <li>Hand wash and dry</li>
+              <li>Wheels and arches</li>
+              <li>Interior vacuum</li>
+              <li>Glass and trim</li>
+            </ul>
+            <a class="btn btn-ghost" href="#book">Choose Essential</a>
+          </article>
+          <article class="featured">
+            <p class="idx">02 · Popular</p>
+            <h3>Signature</h3>
+            <p class="price">€349</p>
+            <ul>
+              <li>Everything in Essential</li>
+              <li>Machine polish, one stage</li>
+              <li>Interior deep clean</li>
+              <li>Tyre and plastic dressing</li>
+            </ul>
+            <a class="btn" href="#book">Choose Signature</a>
+          </article>
+          <article>
+            <p class="idx">03</p>
+            <h3>Atelier</h3>
+            <p class="price">€590</p>
+            <ul>
+              <li>Everything in Signature</li>
+              <li>Multi-stage correction</li>
+              <li>Ceramic topper, as agreed</li>
+              <li>Engine-bay clean</li>
+            </ul>
+            <a class="btn btn-ghost" href="#book">Choose Atelier</a>
+          </article>
+        </div>
+        <p class="caption">Example package prices for this concept. A live workshop would confirm the figure against the car and the work required.</p>
+      </div>
+    </section>
+    <section class="section" id="finish">
+      <div class="wrap">
+        <p class="idx">The finish</p>
+        <h2>Wash to gloss.</h2>
+        <div class="ba" id="compare">
+          <picture>
+      <source type="image/avif" srcset="images/finished-1400.avif 1400w" sizes="100vw">
+      <source type="image/webp" srcset="images/finished-800.webp 800w, images/finished-1400.webp 1400w" sizes="100vw">
+      <img src="images/finished-1400.jpg" alt="A finished lime sports car with a high-gloss exterior, used as the “after” example." width="1400" loading="lazy" class="ba-after">
+    </picture>
+          <div class="ba-before-wrap">
+            <picture>
+      <source type="image/avif" srcset="images/foam-1400.avif 1400w" sizes="100vw">
+      <source type="image/webp" srcset="images/foam-800.webp 800w, images/foam-1400.webp 1400w" sizes="100vw">
+      <img src="images/foam-1400.jpg" alt="A car covered in white snow foam during a wash — used as the “in progress” side of the comparison." width="1400" loading="lazy" class="ba-before">
+    </picture>
+          </div>
+          <div class="ba-handle" aria-hidden="true"></div>
+          <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Compare wash in progress with a finished exterior">
+        </div>
+        <div class="ba-labels"><span>Wash in progress</span><span>Finished exterior</span></div>
+        <p class="caption">These are example photographs of a wash in progress and a finished exterior. They are not pictures of the same vehicle. Drag the slider to compare the two states. This is a concept project, not a real detailing studio.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap grid-2">
+        <picture>
+      <source type="image/avif" srcset="images/studio-1400.avif 1400w" sizes="(max-width:767px) 100vw, 50vw">
+      <source type="image/webp" srcset="images/studio-800.webp 800w, images/studio-1400.webp 1400w" sizes="(max-width:767px) 100vw, 50vw">
+      <img src="images/studio-1400.jpg" alt="A white hypercar in a dark studio, used as atmosphere for the concept brand" width="1400" loading="lazy">
+    </picture>
+        <div>
+          <p class="idx">The method</p>
+          <h2>One bay. No rush.</h2>
+          <p class="muted">A live Alto appointment would start with the car, the paint and what you want from the day. The work would be agreed in writing before the machine comes out. This page only shows how that story could be told.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="book">
+      <div class="wrap">
+        <p class="idx">Book</p>
+        <h2>Request a slot.</h2>
+        <p class="muted" style="max-width:48ch">On a commissioned site this section would connect to the workshop’s real inbox or calendar. Here it only explains the idea.</p>
+        <p class="note"><strong>Concept project — no real booking.</strong> Alto Detail is a demonstration website by WEBAUR. Package buttons and “Request a slot” only move you to this section. They do not send a request or reserve a bay.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">
+    <span>ALTO DETAIL</span>
+    <span>CONCEPT PROJECT — NOT A REAL STUDIO</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
