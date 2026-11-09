@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halden &amp; Co. Barbers — Classic cuts, modern craft (demo)</title>
+<meta name="description" content="Halden &amp; Co. Barbers — a fictional demo barber shop website: classic haircuts, beard trims and hot towel shaves.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23141414'/%3E%3Ctext x='32' y='43' font-family='Georgia' font-size='30' text-anchor='middle' fill='%23c9a45c'%3EH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a href="#top" class="logo" aria-label="Halden &amp; Co. Barbers — back to top">
+      <span class="logo-mark" aria-hidden="true">H</span>
+      <span class="logo-text"><span class="logo-name">Halden <em>&amp;</em> Co.</span><small>Barbers · Est. 2012</small></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Main">
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Barbers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#booking" class="btn btn-small">Book now</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg" role="img" aria-label="A barber giving a client a beard trim in a dimly lit barbershop"></div>
+    <div class="container hero-content">
+      <p class="eyebrow reveal">Classic grooming · Helsinki</p>
+      <h1 id="hero-title" class="reveal">Sharp cuts.<br><span>Timeless craft.</span></h1>
+      <p class="hero-lead reveal">Precision haircuts, sculpted beards and hot-towel shaves in a relaxed, old-school setting. Sit back — we'll take it from here.</p>
+      <div class="hero-actions reveal">
+        <a href="#booking" class="btn">Book an appointment</a>
+        <a href="#services" class="btn btn-ghost">View services</a>
+      </div>
+      <ul class="hero-stats reveal" aria-label="Shop highlights">
+        <li><strong>14</strong><span>years of craft</span></li>
+        <li><strong>3</strong><span>master barbers</span></li>
+        <li><strong>4.9★</strong><span>example rating</span></li>
+      </ul>
+    </div>
+    <a href="#services" class="scroll-cue" aria-label="Scroll to services"><span></span></a>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section" aria-labelledby="services-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Services &amp; prices</p>
+        <h2 id="services-title">The menu</h2>
+        <p class="section-sub">Every service includes a consultation, a hot towel finish and styling with our house products.</p>
+      </header>
+      <div class="price-grid">
+        <div class="price-col reveal">
+          <h3 class="price-cat">Hair</h3>
+          <ul class="price-list">
+            <li><div><span class="p-name">Classic Haircut</span><span class="p-desc">Scissor &amp; clipper cut, wash and style · 45 min</span></div><span class="p-price">€38</span></li>
+            <li><div><span class="p-name">Skin Fade</span><span class="p-desc">Seamless fade finished with a razor · 50 min</span></div><span class="p-price">€42</span></li>
+            <li><div><span class="p-name">Long Hair Cut</span><span class="p-desc">Restyle for shoulder-length hair · 60 min</span></div><span class="p-price">€48</span></li>
+            <li><div><span class="p-name">Buzz Cut</span><span class="p-desc">One length all over, neat edges · 20 min</span></div><span class="p-price">€22</span></li>
+            <li><div><span class="p-name">Kids' Cut</span><span class="p-desc">Under 12 years · 30 min</span></div><span class="p-price">€25</span></li>
+          </ul>
+        </div>
+        <div class="price-col reveal">
+          <h3 class="price-cat">Beard &amp; shave</h3>
+          <ul class="price-list">
+            <li><div><span class="p-name">Beard Sculpt</span><span class="p-desc">Shape, line-up and beard oil · 30 min</span></div><span class="p-price">€26</span></li>
+            <li><div><span class="p-name">Hot Towel Shave</span><span class="p-desc">Traditional straight-razor shave · 40 min</span></div><span class="p-price">€35</span></li>
+            <li><div><span class="p-name">Cut &amp; Beard</span><span class="p-desc">Our signature combination · 75 min</span></div><span class="p-price">€58</span></li>
+            <li class="featured"><div><span class="p-name">The Halden Ritual</span><span class="p-desc">Cut, hot towel shave, face mask &amp; scalp massage · 100 min</span></div><span class="p-price">€85</span></li>
+            <li><div><span class="p-name">Grey Blending</span><span class="p-desc">Subtle, natural colour for hair or beard · 30 min</span></div><span class="p-price">€30</span></li>
+          </ul>
+        </div>
+      </div>
+      <p class="demo-note reveal">Prices are example demo content.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section section-alt" aria-labelledby="about-title">
+    <div class="container about-grid">
+      <figure class="about-media reveal">
+        <img src="images/about.jpg" alt="Black-and-white close-up of a tattooed barber trimming a client's beard with scissors" loading="lazy" width="800" height="600">
+        <figcaption class="about-badge"><strong>Est.</strong>2012</figcaption>
+      </figure>
+      <div class="about-copy reveal">
+        <p class="eyebrow">Our story</p>
+        <h2 id="about-title">A neighbourhood chair with old-world standards</h2>
+        <p>Halden &amp; Co. started as a single chair and a second-hand straight razor. Today we're a three-chair shop with the same idea at heart: unhurried appointments, honest advice and a cut that still looks good three weeks later.</p>
+        <p>We pair classic barbering techniques with modern styles — from tidy business cuts to sharp skin fades — and we never rush the finish. Coffee's on, the playlist is good and the conversation is optional.</p>
+        <ul class="about-points">
+          <li>Appointments, never assembly lines</li>
+          <li>Hot towel finish with every service</li>
+          <li>Locally made grooming products</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section id="team" class="section" aria-labelledby="team-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">The barbers</p>
+        <h2 id="team-title">Meet the chairs</h2>
+      </header>
+      <div class="team-grid">
+        <article class="barber reveal">
+          <div class="barber-photo"><img src="images/b1.jpg" alt="Portrait of Mikko, a barber with short dark hair and a trimmed beard" loading="lazy" width="600" height="750"></div>
+          <h3>Mikko Halden</h3>
+          <p class="role">Founder · Master barber</p>
+          <p>Twenty years behind the chair. Known for razor-sharp classic cuts and the best hot-towel shave in town.</p>
+        </article>
+        <article class="barber reveal">
+          <div class="barber-photo"><img src="images/b2.jpg" alt="Portrait of Leo, a smiling barber in a white t-shirt" loading="lazy" width="600" height="750"></div>
+          <h3>Leo Marquez</h3>
+          <p class="role">Senior barber · Fades</p>
+          <p>Fade specialist with a steady hand and an eye for detail. Ask him about textured crops.</p>
+        </article>
+        <article class="barber reveal">
+          <div class="barber-photo"><img src="images/b3.jpg" alt="Portrait of Daniel, a barber with dark hair wearing a grey sweater" loading="lazy" width="600" height="750"></div>
+          <h3>Daniel Rossi</h3>
+          <p class="role">Barber · Beard specialist</p>
+          <p>Beard sculpting, grey blending and long-hair restyles. Patient, precise and always on time.</p>
+        </article>
+      </div>
+      <p class="demo-note reveal">Names and bios are fictional demo content.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section section-alt" aria-labelledby="gallery-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2 id="gallery-title">Inside the shop</h2>
+      </header>
+      <div class="gallery-grid">
+        <figure class="g-item g-wide reveal"><img src="images/g1.jpg" alt="Barbershop interior with leather chairs, mirrors and warm pendant lights against a brick wall" loading="lazy"></figure>
+        <figure class="g-item reveal"><img src="images/g2.jpg" alt="Barber shaving the neckline of a client with a straight razor" loading="lazy"></figure>
+        <figure class="g-item reveal"><img src="images/g3.jpg" alt="Clippers, scissors, comb and grooming products laid out on a wooden table" loading="lazy"></figure>
+        <figure class="g-item reveal"><img src="images/g4.jpg" alt="Barber styling a client's textured haircut" loading="lazy"></figure>
+        <figure class="g-item reveal"><img src="images/g5.jpg" alt="A vintage brown leather barber chair" loading="lazy"></figure>
+        <figure class="g-item g-wide reveal"><img src="images/g6.jpg" alt="Barber blow-drying a smiling client's hair" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="reviews" class="section" aria-labelledby="reviews-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Example reviews</p>
+        <h2 id="reviews-title">What clients say</h2>
+        <p class="section-sub">These testimonials are illustrative examples for this demo, not real customer reviews.</p>
+      </header>
+      <div class="reviews-grid">
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“Best fade I've had in years. Leo took his time, explained everything and the shop has a great atmosphere.”</p>
+          <footer>— Example client, Antti K.</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“The Halden Ritual is worth every cent. Walked out feeling like a new person — hot towel shave was perfect.”</p>
+          <footer>— Example client, James W.</footer>
+        </blockquote>
+        <blockquote class="review reveal">
+          <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+          <p>“Easy online booking, always on time, and Daniel finally got my beard into shape. My regular spot now.”</p>
+          <footer>— Example client, Elias R.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS & LOCATION -->
+  <section id="visit" class="section section-alt" aria-labelledby="visit-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Visit us</p>
+        <h2 id="visit-title">Hours &amp; location</h2>
+      </header>
+      <div class="visit-grid">
+        <div class="hours card reveal">
+          <h3>Opening hours</h3>
+          <table class="hours-table">
+            <caption class="sr-only">Opening hours</caption>
+            <tbody>
+              <tr data-day="1"><th scope="row">Monday</th><td>10:00 – 19:00</td></tr>
+              <tr data-day="2"><th scope="row">Tuesday</th><td>10:00 – 19:00</td></tr>
+              <tr data-day="3"><th scope="row">Wednesday</th><td>10:00 – 19:00</td></tr>
+              <tr data-day="4"><th scope="row">Thursday</th><td>10:00 – 20:00</td></tr>
+              <tr data-day="5"><th scope="row">Friday</th><td>09:00 – 20:00</td></tr>
+              <tr data-day="6"><th scope="row">Saturday</th><td>09:00 – 16:00</td></tr>
+              <tr data-day="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+            </tbody>
+          </table>
+          <p class="open-status" id="open-status" aria-live="polite"></p>
+        </div>
+        <div class="contact card reveal">
+          <h3>Find us</h3>
+          <address>
+            <p><span class="c-label">Address</span>Esimerkkikatu 12<br>00100 Helsinki, Finland</p>
+            <p><span class="c-label">Phone</span><a href="tel:+358400000000">+358 40 000 0000</a></p>
+            <p><span class="c-label">Email</span><a href="mailto:hello@example.com">hello@example.com</a></p>
+          </address>
+          <p class="demo-note left">Address, phone and email are placeholders (demo content).</p>
+        </div>
+        <div class="map card reveal" role="img" aria-label="Illustrative map placeholder showing the shop's location">
+          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+            <rect width="400" height="300" fill="#1b1b1b"/>
+            <g stroke="#2c2c2c" stroke-width="14" fill="none" stroke-linecap="round">
+              <path d="M-10 70 H410"/><path d="M-10 190 H410"/><path d="M90 -10 V310"/><path d="M270 -10 V310"/><path d="M-10 290 L410 120"/>
+            </g>
+            <g stroke="#242424" stroke-width="6" fill="none">
+              <path d="M-10 130 H410"/><path d="M180 -10 V310"/><path d="M340 -10 V310"/><path d="M-10 250 H410"/>
+            </g>
+            <rect x="196" y="85" width="58" height="90" rx="4" fill="#202a20"/>
+            <circle cx="225" cy="130" r="40" fill="#c9a45c" opacity=".12"/>
+            <path d="M225 100 c-14 0-24 10-24 23 0 17 24 37 24 37s24-20 24-37c0-13-10-23-24-23z" fill="#c9a45c"/>
+            <circle cx="225" cy="123" r="8" fill="#141414"/>
+          </svg>
+          <span class="map-label">Map placeholder · Esimerkkikatu 12</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="section booking" aria-labelledby="booking-title">
+    <div class="container booking-grid">
+      <div class="booking-copy reveal">
+        <p class="eyebrow">Reservations</p>
+        <h2 id="booking-title">Book your chair</h2>
+        <p>Pick a service, a barber and a time that suits you. We'll confirm your appointment by email. Running late or need to cancel? Just let us know 24 hours ahead.</p>
+        <ul class="about-points">
+          <li>Walk-ins welcome when a chair is free</li>
+          <li>Card &amp; mobile payments accepted</li>
+          <li>Gift cards available in the shop</li>
+        </ul>
+      </div>
+      <form class="booking-form card reveal" id="booking-form" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required placeholder="e.g. Alex Virtanen">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Choose a service</option>
+              <option>Classic Haircut — €38</option>
+              <option>Skin Fade — €42</option>
+              <option>Long Hair Cut — €48</option>
+              <option>Buzz Cut — €22</option>
+              <option>Kids' Cut — €25</option>
+              <option>Beard Sculpt — €26</option>
+              <option>Hot Towel Shave — €35</option>
+              <option>Cut &amp; Beard — €58</option>
+              <option>The Halden Ritual — €85</option>
+              <option>Grey Blending — €30</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="barber">Barber</label>
+            <select id="barber" name="barber">
+              <option>No preference</option>
+              <option>Mikko Halden</option>
+              <option>Leo Marquez</option>
+              <option>Daniel Rossi</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field">
+            <label for="date">Date</label>
+            <input id="date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="time">Time</label>
+            <select id="time" name="time" required>
+              <option value="">Choose a time</option>
+              <option>09:00</option><option>10:00</option><option>11:00</option><option>12:00</option>
+              <option>13:00</option><option>14:00</option><option>15:00</option><option>16:00</option>
+              <option>17:00</option><option>18:00</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="notes">Notes <span class="optional">(optional)</span></label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Anything we should know?"></textarea>
+        </div>
+        <p class="form-error" id="form-error" role="alert" hidden></p>
+        <button type="submit" class="btn btn-block">Request appointment</button>
+        <p class="form-hint">Demo form — submissions are not sent anywhere.</p>
+        <div class="form-success" id="form-success" role="status" aria-live="polite" hidden>
+          <div class="success-icon" aria-hidden="true">✓</div>
+          <h3>Thanks<span id="success-name"></span>!</h3>
+          <p id="success-text"></p>
+          <p class="small">This is a demo website, so nothing was actually sent or booked.</p>
+          <button type="button" class="btn btn-ghost btn-small" id="booking-reset">Make another booking</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#top" class="logo footer-logo"><span class="logo-mark" aria-hidden="true">H</span><span class="logo-text"><span class="logo-name">Halden <em>&amp;</em> Co.</span><small>Barbers · Est. 2012</small></span></a>
+      <p class="muted">Classic cuts, modern craft. Helsinki.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Barbers</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#booking">Book</a></li>
+      </ul>
+    </nav>
+    <div class="social" aria-label="Social media (demo links)">
+      <a href="#" aria-label="Instagram (demo link)"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="Facebook (demo link)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-2.8 0-4 1.8-4 4.3V10H7v4h3v7h4v-7h3l1-4h-4V8.6c0-.4.3-.6.6-.6z" fill="currentColor"/></svg></a>
+      <a href="#" aria-label="TikTok (demo link)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3c.4 2.4 1.9 4 4.5 4.2v3.4c-1.6 0-3.1-.5-4.4-1.3v6.2A5.6 5.6 0 1 1 10.5 10v3.5a2.2 2.2 0 1 0 2.1 2.2V3z" fill="currentColor"/></svg></a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year">2026</span> Halden &amp; Co. Barbers — a fictional business.</p>
+    <p class="demo-badge"><strong>Demo content:</strong> shop name, address, phone, email, prices, team and reviews are fictional examples. Photos: Unsplash (free license).</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
