@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pizzeria &amp; Kebab Vesuvio — Helsinki (demo)</title>
+<meta name="description" content="Pizzeria &amp; Kebab Vesuvio — fiktiivinen demosivu: pizzat, kebabit, rullat ja salaatit Helsingissä.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e63946'/%3E%3Ctext x='32' y='44' font-family='Arial' font-size='34' text-anchor='middle' fill='%23fff'%3EV%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip-link" href="#main">Siirry sisältöön</a>
+
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a href="#top" class="logo" aria-label="Pizzeria &amp; Kebab Vesuvio — etusivu">
+      <span class="logo-mark" aria-hidden="true">🍕</span>
+      <span class="logo-text">
+        <span class="logo-name">Vesuvio</span>
+        <small>Pizzeria &amp; Kebab · Helsinki</small>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Avaa valikko">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Päävalikko">
+      <ul>
+        <li><a href="#menu">Ruokalista</a></li>
+        <li><a href="#lounas">Lounas</a></li>
+        <li><a href="#toimitus">Nouto &amp; kotiinkuljetus</a></li>
+        <li><a href="#galleria">Galleria</a></li>
+        <li><a href="#arvostelut">Arvostelut</a></li>
+        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+        <li><a href="#tilaus" class="btn btn-nav">Tilaa</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <img src="images/hero.jpg" alt="Tuore pizza uunista" width="1400" height="933" fetchpriority="high">
+      <div class="hero-overlay" aria-hidden="true"></div>
+    </div>
+    <div class="container hero-content">
+      <p class="eyebrow">Helsinki · Esimerkkikatu 5</p>
+      <h1 id="hero-title">Pizzat &amp; kebabit<br><span>tulesta pöytään</span></h1>
+      <p class="hero-lead">Fiktiivinen demoravintola — rapeita pizzoja, mehukkaita kebabeja ja päivän lounastarjouksia. Tilaa noutoon tai kotiinkuljetuksella.</p>
+      <div class="hero-actions">
+        <a href="#tilaus" class="btn btn-primary">Tilaa nyt</a>
+        <a href="tel:+358400000000" class="btn btn-ghost">Soita · +358 40 000 0000</a>
+      </div>
+      <ul class="hero-badges" aria-label="Kohokohdat">
+        <li><strong>15–25 min</strong><span>noutoaika (esimerkki)</span></li>
+        <li><strong>Lounas</strong><span>arkisin 10:30–14:00</span></li>
+        <li><strong>4.8★</strong><span>esimerkkiarvostelu</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section menu-section" aria-labelledby="menu-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Ruokalista</p>
+        <h2 id="menu-title">Mitä mielesi tekee?</h2>
+        <p class="section-sub">Kaikki hinnat ovat esimerkkihintoja demoa varten. Allergeenitiedot kysy henkilökunnalta.</p>
+      </header>
+
+      <div class="menu-tabs" role="tablist" aria-label="Ruokalistan kategoriat">
+        <button type="button" class="menu-tab is-active" role="tab" aria-selected="true" data-cat="pizzat">Pizzat</button>
+        <button type="button" class="menu-tab" role="tab" aria-selected="false" data-cat="kebabit">Kebabit</button>
+        <button type="button" class="menu-tab" role="tab" aria-selected="false" data-cat="rullat">Rullat</button>
+        <button type="button" class="menu-tab" role="tab" aria-selected="false" data-cat="salaatit">Salaatit</button>
+        <button type="button" class="menu-tab" role="tab" aria-selected="false" data-cat="juomat">Juomat</button>
+      </div>
+
+      <div class="menu-panels">
+        <!-- PIZZAT -->
+        <div class="menu-panel is-active" id="panel-pizzat" role="tabpanel" data-cat="pizzat">
+          <ul class="menu-list">
+            <li>
+              <div class="menu-item-text">
+                <h3>Margherita</h3>
+                <p>Tomaatti, mozzarella, basilika, oliiviöljy</p>
+              </div>
+              <span class="price">11,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Pepperoni</h3>
+                <p>Tomaatti, mozzarella, pepperoni</p>
+              </div>
+              <span class="price">13,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kebabpizza</h3>
+                <p>Tomaatti, mozzarella, kebab, sipuli, paprika, valkosipulikastike</p>
+              </div>
+              <span class="price">14,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Opera</h3>
+                <p>Tomaatti, mozzarella, kinkku, ananas, paprika</p>
+              </div>
+              <span class="price">13,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Special Vesuvio</h3>
+                <p>Tomaatti, mozzarella, salami, sienet, oliivit, chili</p>
+              </div>
+              <span class="price">15,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Quattro Formaggi</h3>
+                <p>Mozzarella, gorgonzola, cheddar, fetajuusto</p>
+              </div>
+              <span class="price">14,50 €</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- KEBABIT -->
+        <div class="menu-panel" id="panel-kebabit" role="tabpanel" data-cat="kebabit" hidden>
+          <ul class="menu-list">
+            <li>
+              <div class="menu-item-text">
+                <h3>Kebab lautanen</h3>
+                <p>Kebabliha, ranskalaiset, salaatti, valkosipuli- &amp; tulinen kastike</p>
+              </div>
+              <span class="price">13,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kebab riisillä</h3>
+                <p>Kebabliha, basmati, salaatti, kastikkeet</p>
+              </div>
+              <span class="price">13,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Iskander</h3>
+                <p>Kebab, jogurttikastike, tomaattikastike, voita, riisi</p>
+              </div>
+              <span class="price">15,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Falafel lautanen</h3>
+                <p>Falafel, ranskalaiset, salaatti, hummus, tahini</p>
+              </div>
+              <span class="price">12,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kanakebab lautanen</h3>
+                <p>Maustettu kana, ranskalaiset, salaatti, kastikkeet</p>
+              </div>
+              <span class="price">14,50 €</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- RULLAT -->
+        <div class="menu-panel" id="panel-rullat" role="tabpanel" data-cat="rullat" hidden>
+          <ul class="menu-list">
+            <li>
+              <div class="menu-item-text">
+                <h3>Kebabrulla</h3>
+                <p>Kebab, salaatti, sipuli, tomaatti, valkosipulikastike</p>
+              </div>
+              <span class="price">9,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kanarulla</h3>
+                <p>Kana, salaatti, kurkku, chili-majo</p>
+              </div>
+              <span class="price">10,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Falafelrulla</h3>
+                <p>Falafel, salaatti, hummus, tahini</p>
+              </div>
+              <span class="price">9,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Mix-rulla</h3>
+                <p>Kebab &amp; kana, salaatti, kaksoiskastike</p>
+              </div>
+              <span class="price">11,90 €</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- SALAATIT -->
+        <div class="menu-panel" id="panel-salaatit" role="tabpanel" data-cat="salaatit" hidden>
+          <ul class="menu-list">
+            <li>
+              <div class="menu-item-text">
+                <h3>Kreikkalainen salaatti</h3>
+                <p>Salaatti, tomaatti, kurkku, feta, oliivit, oregano</p>
+              </div>
+              <span class="price">10,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kebab-salaatti</h3>
+                <p>Salaatti, kebab, paprika, sipuli, valkosipulikastike</p>
+              </div>
+              <span class="price">12,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kanansalaatti</h3>
+                <p>Salaatti, kana, maissi, kurkku, hunaja-sinappi</p>
+              </div>
+              <span class="price">12,90 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Caesar</h3>
+                <p>Romaine, kana, krutongit, parmesaani, caesar-kastike</p>
+              </div>
+              <span class="price">13,50 €</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- JUOMAT -->
+        <div class="menu-panel" id="panel-juomat" role="tabpanel" data-cat="juomat" hidden>
+          <ul class="menu-list">
+            <li>
+              <div class="menu-item-text">
+                <h3>Coca-Cola / Zero / Fanta</h3>
+                <p>0,33 l tölkki</p>
+              </div>
+              <span class="price">2,80 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kotikalja / limsa</h3>
+                <p>0,5 l</p>
+              </div>
+              <span class="price">3,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Vesi / kuohuvesi</h3>
+                <p>0,5 l</p>
+              </div>
+              <span class="price">2,20 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Ayran</h3>
+                <p>0,25 l</p>
+              </div>
+              <span class="price">2,50 €</span>
+            </li>
+            <li>
+              <div class="menu-item-text">
+                <h3>Kahvi / tee</h3>
+                <p>Pieni / iso</p>
+              </div>
+              <span class="price">2,50 €</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOUNAS -->
+  <section id="lounas" class="section lunch-section" aria-labelledby="lounas-title">
+    <div class="container lunch-grid">
+      <div class="lunch-card">
+        <p class="eyebrow">Arkisin 10:30–14:00</p>
+        <h2 id="lounas-title">Päivän lounas</h2>
+        <p class="lunch-price"><strong>9,90 €</strong> <span>sis. juoma</span></p>
+        <ul class="lunch-list">
+          <li>Päivän pizza (esim. Margherita / Opera)</li>
+          <li>Kebab lautanen pieni</li>
+          <li>Kanarulla + limsa</li>
+          <li>Salaattilounas</li>
+        </ul>
+        <p class="lunch-note">Lounasvaihtoehdot vaihtuvat päivittäin — tämä on demoesimerkki.</p>
+        <a href="#tilaus" class="btn btn-primary">Tilaa lounas</a>
+      </div>
+      <div class="lunch-visual">
+        <img src="images/pizza1.jpg" alt="Tuore pizza lounaaksi" width="1400" height="933" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- TOIMITUS -->
+  <section id="toimitus" class="section delivery-section" aria-labelledby="toimitus-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Nouto &amp; kotiinkuljetus</p>
+        <h2 id="toimitus-title">Miten saat ruokasi</h2>
+      </header>
+      <div class="cards-3">
+        <article class="info-card">
+          <div class="info-icon" aria-hidden="true">🏃</div>
+          <h3>Nouto</h3>
+          <p>Valmiina tyypillisesti 15–25 minuutissa. Soita tai tilaa lomakkeella — nouda Esimerkkikatu 5:stä.</p>
+        </article>
+        <article class="info-card">
+          <div class="info-icon" aria-hidden="true">🛵</div>
+          <h3>Kotiinkuljetus</h3>
+          <p>Toimitusalue noin 5 km (esimerkki). Minimitoimitus 15 €, toimitusmaksu 3,90 €.</p>
+        </article>
+        <article class="info-card">
+          <div class="info-icon" aria-hidden="true">💳</div>
+          <h3>Maksutavat</h3>
+          <p>Käteinen, kortti, MobilePay. Verkkotilauksessa tämä demo ei käsittele maksuja.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERIA -->
+  <section id="galleria" class="section gallery-section" aria-labelledby="galleria-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Tunnelmia</p>
+        <h2 id="galleria-title">Galleria</h2>
+        <p class="section-sub">Unsplash-kuvia demokäyttöön — eivät ole oikeasta ravintolasta.</p>
+      </header>
+      <div class="gallery-grid">
+        <figure class="g-item g-wide"><img src="images/pizza1.jpg" alt="Pepperoni-pizza" width="1400" height="933" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/kebab1.jpg" alt="Kebabannos" width="1400" height="927" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/pizza2.jpg" alt="Pizza lähikuvassa" width="1158" height="1400" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/salad.jpg" alt="Tuore salaatti" width="1400" height="933" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/kebab2.jpg" alt="Grilliruokaa" width="933" height="1400" loading="lazy"></figure>
+        <figure class="g-item g-wide"><img src="images/interior.jpg" alt="Ravintolan tunnelma" width="1400" height="933" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/gal1.jpg" alt="Pizza uunista" width="1049" height="1400" loading="lazy"></figure>
+        <figure class="g-item"><img src="images/drink.jpg" alt="Juomia" width="933" height="1400" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARVOSTELUT -->
+  <section id="arvostelut" class="section reviews-section" aria-labelledby="arvostelut-title">
+    <div class="container">
+      <header class="section-head">
+        <p class="eyebrow">Asiakkaat sanovat</p>
+        <h2 id="arvostelut-title">Esimerkkiarvosteluja</h2>
+        <p class="section-sub">Nämä ovat keksittyjä demotekstejä — eivät oikeita asiakasarvioita.</p>
+      </header>
+      <div class="reviews-grid">
+        <blockquote class="review-card">
+          <div class="stars" aria-label="5 tähteä">★★★★★</div>
+          <p>”Kebabpizza oli täydellinen — rapea pohja ja reilu täyte. Lounastarjous pelasti päivän.”</p>
+          <footer>— <cite>Aino M.</cite> <span>(esimerkki)</span></footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <div class="stars" aria-label="5 tähteä">★★★★★</div>
+          <p>”Nopea nouto ja ystävällinen palvelu. Kanarulla on meidän vakkarimme.”</p>
+          <footer>— <cite>Joonas K.</cite> <span>(esimerkki)</span></footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <div class="stars" aria-label="4 tähteä">★★★★☆</div>
+          <p>”Hyvä hinta-laatusuhde. Salaatit tuoreita, ja kotiinkuljetus tuli sovitussa ajassa.”</p>
+          <footer>— <cite>Sari L.</cite> <span>(esimerkki)</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- AUKIOLO & YHTEYSTIEDOT -->
+  <section id="yhteystiedot" class="section visit-section" aria-labelledby="yhteystiedot-title">
+    <div class="container visit-grid">
+      <div>
+        <header class="section-head left">
+          <p class="eyebrow">Tervetuloa</p>
+          <h2 id="yhteystiedot-title">Aukiolo &amp; yhteystiedot</h2>
+        </header>
+        <div class="hours-box">
+          <h3>Aukioloajat</h3>
+          <ul class="hours-list">
+            <li><span>Ma–To</span><span>10:30–22:00</span></li>
+            <li><span>Pe–La</span><span>10:30–23:00</span></li>
+            <li><span>Su</span><span>12:00–22:00</span></li>
+          </ul>
+        </div>
+        <address class="contact-block">
+          <p><strong>Pizzeria &amp; Kebab Vesuvio</strong></p>
+          <p>Esimerkkikatu 5<br>00100 Helsinki</p>
+          <p><a href="tel:+358400000000">+358 40 000 0000</a><br>
+          <a href="mailto:hello@example.com">hello@example.com</a></p>
+        </address>
+      </div>
+      <div class="map-wrap" aria-label="Karttapaikkamerkki">
+        <svg class="map-svg" viewBox="0 0 640 420" role="img" aria-label="Piirretty karttapaikkamerkki Esimerkkikatu 5, Helsinki">
+          <defs>
+            <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e8dcc8" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="640" height="420" fill="#f7f0e4"/>
+          <rect width="640" height="420" fill="url(#grid)"/>
+          <path d="M40 280 H600" stroke="#d4c4a8" stroke-width="18" stroke-linecap="round"/>
+          <path d="M180 40 V380" stroke="#d4c4a8" stroke-width="14" stroke-linecap="round"/>
+          <path d="M40 160 H600" stroke="#e6d7b8" stroke-width="10" stroke-linecap="round"/>
+          <path d="M420 40 V380" stroke="#e6d7b8" stroke-width="10" stroke-linecap="round"/>
+          <rect x="250" y="200" width="120" height="70" rx="8" fill="#fff" stroke="#e63946" stroke-width="3"/>
+          <text x="310" y="242" text-anchor="middle" font-family="Nunito,sans-serif" font-size="14" font-weight="700" fill="#1a1a1a">Vesuvio</text>
+          <circle cx="310" cy="175" r="18" fill="#e63946"/>
+          <circle cx="310" cy="175" r="7" fill="#fff"/>
+          <text x="320" y="395" text-anchor="middle" font-family="Nunito,sans-serif" font-size="13" fill="#7a6a55">Esimerkkikatu 5 · Helsinki (demo)</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- TILAUS / YHTEYDENOTTO -->
+  <section id="tilaus" class="section order-section" aria-labelledby="tilaus-title">
+    <div class="container order-wrap">
+      <header class="section-head">
+        <p class="eyebrow">Tilaa tai kysy</p>
+        <h2 id="tilaus-title">Tilauslomake</h2>
+        <p class="section-sub">Tämä on demolomake — se ei lähetä tilausta mihinkään. Saat vain kiitosviestin selaimessa.</p>
+      </header>
+      <form class="order-form" id="order-form" novalidate>
+        <div class="form-row">
+          <label for="name">Nimi</label>
+          <input type="text" id="name" name="name" required autocomplete="name" placeholder="Etunimi Sukunimi">
+        </div>
+        <div class="form-row two">
+          <div>
+            <label for="phone">Puhelin</label>
+            <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="+358 …">
+          </div>
+          <div>
+            <label for="email">Sähköposti</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="nimi@example.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="type">Tilauksen tyyppi</label>
+          <select id="type" name="type">
+            <option value="nouto">Nouto</option>
+            <option value="kuljetus">Kotiinkuljetus</option>
+            <option value="kysymys">Kysymys / palaute</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Tilaus / viesti</label>
+          <textarea id="message" name="message" rows="4" required placeholder="Esim. 1× Kebabpizza, 1× Coca-Cola, nouto klo 18"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Lähetä (demo)</button>
+        <p class="form-success" id="form-success" hidden role="status">Kiitos! Tämä on demosivu — tilaustasi ei lähetetty mihinkään. Oikeassa ravintolassa soittaisit numeroon +358 40 000 0000.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>Pizzeria &amp; Kebab Vesuvio</strong>
+      <p>Esimerkkikatu 5, Helsinki · +358 40 000 0000</p>
+    </div>
+    <p class="demo-note">⚠️ Tämä on <strong>fiktiivinen demosivu</strong>. Nimi, osoite, hinnat, arvostelut ja yhteystiedot ovat esimerkkejä — eivät kuulu oikeaan ravintolaan.</p>
+    <p class="copy">© 2026 Vesuvio Demo · Kuvat Unsplash</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
