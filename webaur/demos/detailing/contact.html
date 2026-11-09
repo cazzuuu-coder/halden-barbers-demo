@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Alto Detail (concept)</title>
+  <meta name="description" content="Request an enquiry at the fictional Alto Detail studio. This is a concept project by WEBAUR; the form does not send a message.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800&family=Big+Shoulders+Text:wght@500;600&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../../images/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <p class="concept-rail">
+    <a href="../../work.html">Concept project by WEBAUR</a>
+    <span aria-hidden="true">·</span>
+    <span>Not a real studio</span>
+  </p>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="index.html">
+        <span class="wordmark-alto">ALTO</span>
+        <span class="wordmark-detail">Detail</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="menu-toggle-bars" aria-hidden="true"><span></span><span></span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="results.html">Results</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="page-hero wrap">
+      <p class="eyebrow">Contact</p>
+      <h1>Request a place in the bay.</h1>
+      <p class="lead">On a commissioned website this page would reach the workshop. Here, the form is a demonstration: it does not send a message, book a slot, or collect your details.</p>
+    </header>
+
+    <section class="contact-grid wrap">
+      <aside class="contact-card">
+        <h2>Example studio</h2>
+        <p class="contact-name">Alto Detail</p>
+        <p>Telakkakatu 12<br>00150 Helsinki<br>Finland</p>
+        <p class="fineprint">Fictional address for this concept. There is no workshop at this location, and the telephone and email below are examples only.</p>
+        <dl class="contact-dl">
+          <div>
+            <dt>Hours (example)</dt>
+            <dd>Tuesday–Saturday, 08:30–17:00</dd>
+          </div>
+          <div>
+            <dt>Telephone (example)</dt>
+            <dd>+358 00 000 0000</dd>
+          </div>
+          <div>
+            <dt>Email (example)</dt>
+            <dd>studio@alto-detail.example</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <form class="enquiry" id="enquiry" action="#" method="post" novalidate>
+        <p class="form-banner" role="note">Concept project — this form does not send. Submitting it will only show a confirmation on this page.</p>
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name">
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="phone">Telephone <span class="optional">(optional)</span></label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+        </div>
+        <div class="field">
+          <label for="vehicle">Vehicle <span class="optional">(make, model, year)</span></label>
+          <input id="vehicle" name="vehicle" type="text" autocomplete="off">
+        </div>
+        <div class="field">
+          <label for="package">Package of interest</label>
+          <select id="package" name="package">
+            <option value="">Please choose</option>
+            <option value="essential">Essential — example from €189</option>
+            <option value="signature">Signature — example from €349</option>
+            <option value="atelier">Atelier — example from €590</option>
+            <option value="unsure">Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+        </div>
+        <button class="btn" type="submit">Send enquiry</button>
+        <p class="form-status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <p class="wordmark wordmark--footer">
+          <span class="wordmark-alto">ALTO</span>
+          <span class="wordmark-detail">Detail</span>
+        </p>
+        <p class="footer-tag">A concept detailing studio, Helsinki.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Example address</h2>
+        <p>Telakkakatu 12<br>00150 Helsinki<br>Finland</p>
+        <p class="fineprint">Fictional location for this concept project. There is no workshop at this address.</p>
+      </div>
+      <div>
+        <h2 class="footer-heading">Example hours</h2>
+        <p>Tuesday–Saturday<br>08:30–17:00</p>
+        <p><a href="contact.html">Request an enquiry</a></p>
+      </div>
+      <div>
+        <p><a href="../../work.html">Concept project by WEBAUR</a></p>
+        <p class="fineprint">Alto Detail is not a real business. Photography is freely licensed stock, credited in CREDITS-alto.md. No reviews, results or customers are claimed.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

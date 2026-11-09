@@ -3,149 +3,162 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Maison Café — Concept project</title>
-  <meta name="description" content="A concept café website designed by WEBAUR. Not a real business.">
-  <meta name="robots" content="noindex">
+  <title>Maison Café — A concept project by WEBAUR</title>
+  <meta name="description" content="An editorial concept website for a neighbourhood café, designed by WEBAUR. Not a real business.">
+  <meta name="robots" content="noindex, nofollow">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&amp;family=Outfit:wght@400;500;600&amp;display=swap">
-  <link rel="icon" href="../../images/brand/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="../../images/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400;1,6..96,500&amp;family=Manrope:wght@400;500;600;700&amp;display=swap">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <p class="badge">Concept project</p>
-  <header>
+  <header class="site-header">
     <div class="wrap nav">
-      <a class="logo" href="index.html">Maison Café</a>
+      <a class="wordmark" href="index.html"><em>Maison</em> <span>Café</span></a>
+      <a class="concept-mark" href="../../work.html">Concept project by WEBAUR</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
       <ul class="nav-links">
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#hours">Hours</a></li>
-        <li><a href="#location">Location</a></li>
-        <li><a href="#reserve">Reserve</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="story.html">Story</a></li>
+        <li><a href="visit.html">Visit</a></li>
       </ul>
     </div>
   </header>
   <main id="main">
-    <section class="hero wrap">
+    <section class="hero" aria-label="Introduction">
       <div class="hero-media">
         <picture>
-      <source type="image/avif" srcset="images/storefront-1400.avif 1400w" sizes="100vw">
-      <source type="image/webp" srcset="images/storefront-800.webp 800w, images/storefront-1400.webp 1400w" sizes="100vw">
-      <img src="images/storefront-1400.jpg" alt="The front of a café with a large CAFE sign above the window, photographed from across the street at dusk" width="1400" fetchpriority="high">
+      <source type="image/avif" srcset="images/garden-1400.avif 1400w" sizes="100vw">
+      <source type="image/webp" srcset="images/garden-800.webp 800w, images/garden-1400.webp 1400w" sizes="100vw">
+      <img src="images/garden-1400.jpg" srcset="images/garden-800.jpg 800w, images/garden-1400.jpg 1400w" sizes="100vw" width="1400" height="933" alt="A round wooden table set for coffee beside a terracotta plant, in a glasshouse filled with greenery" decoding="async" fetchpriority="high">
     </picture>
       </div>
-      <h1>Bread,<br>slow coffee,<br><em>open tables.</em></h1>
-      <p class="deck">A warm editorial concept for a neighbourhood room — written and photographed as a study, not as a real café.</p>
-    </section>
-    <section class="section">
-      <div class="wrap split">
-        <picture>
-      <source type="image/avif" srcset="images/interior-1400.avif 1400w" sizes="(max-width:767px) 100vw, 50vw">
-      <source type="image/webp" srcset="images/interior-800.webp 800w, images/interior-1400.webp 1400w" sizes="(max-width:767px) 100vw, 50vw">
-      <img src="images/interior-1400.jpg" alt="A warmly lit café interior with wooden tables, hanging plants and people talking" width="1400" loading="lazy">
-    </picture>
-        <div>
-          <p class="eyebrow" style="letter-spacing:.12em;text-transform:uppercase;font-size:12px;color:var(--clay)">The room</p>
-          <h2>A table by the window.</h2>
-          <p class="deck">Maison Café is a fictional room drawn for WEBAUR’s portfolio. The menu, the hours and the photographs show how a real neighbourhood café might present itself. They do not describe a place you can visit.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">A neighbourhood room</p>
+        <h1>A quiet table, for as long as you need it.</h1>
+        <p class="deck">Bread from the morning oven, coffee poured without hurry, and a chair by the glass. Maison Café is a concept drawn for WEBAUR’s portfolio — written as a place, not as a business you can visit.</p>
+        <div class="actions">
+          <a class="btn" href="menu.html">See the menu</a>
+          <a class="btn btn-ghost" href="visit.html">Find the room</a>
         </div>
-      </div>
-    </section>
-    <section class="section" id="menu">
-      <div class="wrap">
-        <h2>Menu</h2>
-        <div class="menu">
-          <div>
-            <h2>Morning</h2>
-            <div class="item"><div>Cardamom bun<small>Butter, sugar, warm spice</small></div><span>4.20</span></div>
-            <div class="item"><div>Sourdough &amp; jam<small>Daily loaf, seasonal preserve</small></div><span>5.50</span></div>
-            <div class="item"><div>Yoghurt &amp; rye<small>Honey, toasted seeds</small></div><span>6.80</span></div>
-            <div class="item"><div>Filter / espresso<small>Rotating beans, simple milk</small></div><span>3.20</span></div>
-          </div>
-          <div>
-            <h2>Noon</h2>
-            <div class="item"><div>Season soup<small>Bread on the side</small></div><span>9.50</span></div>
-            <div class="item"><div>Green plate<small>Leaves, grains, a sharp dressing</small></div><span>12.00</span></div>
-            <div class="item"><div>Toast, late<small>Cheese or tomato, depending on the day</small></div><span>8.50</span></div>
-            <div class="item"><div>Wine, by the glass<small>If the evening service is open</small></div><span>7.00</span></div>
-          </div>
-        </div>
-        <figure style="margin-top:40px"><picture>
-      <source type="image/avif" srcset="images/pastry-1400.avif 1400w" sizes="100vw">
-      <source type="image/webp" srcset="images/pastry-800.webp 800w, images/pastry-1400.webp 1400w" sizes="100vw">
-      <img src="images/pastry-1400.jpg" alt="A baker shaping pastry at a floured wooden bench" width="1400" loading="lazy">
-    </picture></figure>
       </div>
     </section>
 
-    <section class="section" id="featured">
-      <div class="wrap">
-        <h2>From the counter.</h2>
-        <p class="deck">A few of the things a regular might come back for. Prices on this page are part of the concept, not a live menu.</p>
-        <div class="featured">
-          <figure>
-            <picture>
-              <source type="image/webp" srcset="images/latte-800.webp 800w, images/latte-1400.webp 1400w">
-              <img src="images/latte-1400.jpg" alt="A latte with leaf-patterned milk foam" loading="lazy">
-            </picture>
-            <figcaption>The house latte</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <source type="image/webp" srcset="images/pastry-800.webp 800w, images/pastry-1400.webp 1400w">
-              <img src="images/pastry-1400.jpg" alt="Pastry being shaped on a floured wooden bench" loading="lazy">
-            </picture>
-            <figcaption>Pastry, when the oven is on</figcaption>
-          </figure>
-          <figure>
-            <picture>
-              <source type="image/webp" srcset="images/pour-800.webp 800w, images/pour-1400.webp 1400w">
-              <img src="images/pour-1400.jpg" alt="Coffee being poured" loading="lazy">
-            </picture>
-            <figcaption>A slow pour</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-    <section class="section" id="gallery">
-      <div class="wrap">
-        <h2>The room.</h2>
-        <div class="gallery">
-          <figure><img src="images/interior-1400.jpg" alt="The café interior" loading="lazy"></figure>
-          <figure><img src="images/cups-1400.jpg" alt="Cups on a table" loading="lazy"></figure>
-          <figure><img src="images/book-1400.jpg" alt="A book and a cup on a café table" loading="lazy"></figure>
-          <figure><img src="images/plates-1400.jpg" alt="Plated food on a table" loading="lazy"></figure>
-        </div>
-      </div>
-    </section>
-    <section class="strip" id="hours">
-      <div class="wrap">
-        <div><h3>Hours</h3><p>Wed–Fri 08–16<br>Sat–Sun 09–15<br>Mon–Tue kitchen closed</p></div>
-        <div id="location"><h3>Location</h3><p>A fictional café, set on a quiet street. This page does not represent a real business or a real address, and there is no map pin to follow.</p></div>
-        <div><h3>A table</h3><p>In a live project, a short form or a booking link would sit here. Nothing can be reserved on this concept.</p></div>
-      </div>
-    </section>
-    <section class="section" id="reserve">
-      <div class="wrap split">
+    <section class="section">
+      <div class="wrap intro reveal">
         <div>
-          <h2>Reserve a table.</h2>
-          <p class="deck">The button is here so you can see how a reservation call-to-action would sit on the page. It only brings you to this note.</p>
-          <p class="note"><strong>Concept project — no real reservation.</strong> Maison Café is a demonstration website by WEBAUR. “Reserve” does not send a request or hold a table.</p>
+          <p class="eyebrow">The house</p>
+          <h2>Built around <em>the table.</em></h2>
         </div>
-        <picture>
-      <source type="image/avif" srcset="images/latte-1400.avif 1400w" sizes="(max-width:767px) 100vw, 50vw">
-      <source type="image/webp" srcset="images/latte-800.webp 800w, images/latte-1400.webp 1400w" sizes="(max-width:767px) 100vw, 50vw">
-      <img src="images/latte-1400.jpg" alt="A close photograph of a latte with leaf-patterned milk foam" width="1400" loading="lazy">
+        <div class="prose">
+          <p class="lede">The work of a café is mostly ordinary: a loaf cut to order, a cup set down, the light moving across the floor. The website should feel the same — unhurried, specific, and a little bit like a journal.</p>
+          <p>This is not a real address. The photographs are freely licensed stills, chosen and cropped to hold a single mood: warm paper, dark green, copper, and the quiet of a room that keeps its chairs open.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight band-foam">
+      <div class="wrap split split-65">
+        <figure class="feature-photo is-wide reveal">
+          <picture>
+      <source type="image/avif" srcset="images/croissant-1400.avif 1400w" sizes="(max-width: 1023px) 100vw, 58vw">
+      <source type="image/webp" srcset="images/croissant-800.webp 800w, images/croissant-1400.webp 1400w" sizes="(max-width: 1023px) 100vw, 58vw">
+      <img src="images/croissant-1400.jpg" srcset="images/croissant-800.jpg 800w, images/croissant-1400.jpg 1400w" sizes="(max-width: 1023px) 100vw, 58vw" width="1400" height="1120" alt="Two golden croissants on a dark slate, with a fine dust of sugar falling through the air" decoding="async" loading="lazy">
     </picture>
+          <figcaption>The morning pastry, when the oven has been on.</figcaption>
+        </figure>
+        <div class="split-text reveal">
+          <p class="eyebrow">From the oven</p>
+          <h2>Butter, flour, <em>and time.</em></h2>
+          <p class="deck">The bakery is imagined as a short list: a cardamom bun, a croissant, a loaf that is still warm at opening. The menu is typeset as a piece of writing, not a spreadsheet.</p>
+          <div class="actions">
+            <a class="btn btn-ghost" href="menu.html">Read the menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="split-text reveal">
+          <p class="eyebrow">At the bar</p>
+          <h2>Coffee, poured <em>slowly.</em></h2>
+          <p class="deck">Filter when you have the morning. A latte when you want the cup to last. Nothing on this page pretends to be a rotating guest roaster or a set of awards — only the gesture of a careful pour.</p>
+        </div>
+        <figure class="feature-photo reveal">
+          <picture>
+      <source type="image/avif" srcset="images/pour-1400.avif 1400w" sizes="(max-width: 1023px) 100vw, 46vw">
+      <source type="image/webp" srcset="images/pour-800.webp 800w, images/pour-1400.webp 1400w" sizes="(max-width: 1023px) 100vw, 46vw">
+      <img src="images/pour-1400.jpg" srcset="images/pour-800.jpg 800w, images/pour-1400.jpg 1400w" sizes="(max-width: 1023px) 100vw, 46vw" width="1400" height="2097" alt="A barista pouring steamed milk into a cup, finishing a leaf pattern in the foam" decoding="async" loading="lazy">
+    </picture>
+          <figcaption>A cup finished at the bar.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="band-moss interlude" aria-label="A line from the house">
+      <p class="pull pull-plain" style="color: var(--foam); margin: 0 auto;">Bread, slow coffee, <em>open tables.</em></p>
+      <p class="kicker">The sentence the room is built around.</p>
+    </section>
+
+    <figure class="bleed reveal">
+      <picture>
+      <source type="image/avif" srcset="images/table-1400.avif 1400w" sizes="100vw">
+      <source type="image/webp" srcset="images/table-800.webp 800w, images/table-1400.webp 1400w" sizes="100vw">
+      <img src="images/table-1400.jpg" srcset="images/table-800.jpg 800w, images/table-1400.jpg 1400w" sizes="100vw" width="1400" height="974" alt="An overhead view of a worn wooden café table shared by several people, with coffee cups, an open book, fruit and a teapot" decoding="async" loading="lazy">
+    </picture>
+      <figcaption class="wrap" style="padding-top:12px;padding-bottom:8px">A table kept for conversation — photographed as a study, not a reservation.</figcaption>
+    </figure>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="reveal" style="margin-bottom: 32px; max-width: 36rem;">
+          <p class="eyebrow">The room</p>
+          <h2>High windows, a green wall, <em>pastry on the counter.</em></h2>
+          <p class="deck">Two corners of the same invented house: the counter in daylight, and the lamps after the street has gone quiet.</p>
+        </div>
+        <div class="duo">
+          <figure class="reveal">
+            <picture>
+      <source type="image/avif" srcset="images/room-1400.avif 1400w" sizes="(max-width: 1023px) 100vw, 42vw">
+      <source type="image/webp" srcset="images/room-800.webp 800w, images/room-1400.webp 1400w" sizes="(max-width: 1023px) 100vw, 42vw">
+      <img src="images/room-1400.jpg" srcset="images/room-800.jpg 800w, images/room-1400.jpg 1400w" sizes="(max-width: 1023px) 100vw, 42vw" width="1400" height="1986" alt="A tall café interior with a dark green wall, a high factory window, pastry on a counter and pale sculptures on a mezzanine" decoding="async" loading="lazy">
+    </picture>
+            <figcaption>The counter, before the lunch service imagined here.</figcaption>
+          </figure>
+          <figure class="reveal crop-sign">
+            <picture>
+      <source type="image/avif" srcset="images/evening-1400.avif 1400w" sizes="(max-width: 1023px) 100vw, 54vw">
+      <source type="image/webp" srcset="images/evening-800.webp 800w, images/evening-1400.webp 1400w" sizes="(max-width: 1023px) 100vw, 54vw">
+      <img src="images/evening-1400.jpg" srcset="images/evening-800.jpg 800w, images/evening-1400.jpg 1400w" sizes="(max-width: 1023px) 100vw, 54vw" width="1400" height="925" alt="A café interior at dusk, with a large lit CAFE sign, green pendant lamps and handwritten boards behind the bar" decoding="async" loading="lazy">
+    </picture>
+            <figcaption>The room later, when the lamps are on.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-tight band-foam">
+      <div class="wrap invite reveal">
+        <div>
+          <p class="eyebrow">Come in</p>
+          <h2>The door is drawn, <em>not opened.</em></h2>
+          <p class="deck">If this were a living café, this is where you would find the hours and ask for a table. On this concept, the visit page holds a fictional address and a clear note: nothing can be reserved.</p>
+        </div>
+        <div class="actions">
+          <a class="btn" href="visit.html">Hours &amp; the room</a>
+          <a class="btn btn-ghost" href="story.html">Read the story</a>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="wrap">
-    <span>Maison Café</span>
-    <span>Concept project — not a real café</span>
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <a class="wordmark" href="index.html"><em>Maison</em> <span>Café</span></a>
+      <p>A concept project by <a href="../../work.html">WEBAUR</a> — not a real café.</p>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>

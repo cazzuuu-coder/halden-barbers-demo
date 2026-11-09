@@ -1,8 +1,10 @@
-# WEBAUR website (v3)
+# WEBAUR website (v4)
 
 Independent web design studio site — static HTML, CSS and JavaScript. No required build step.
 
-Finnish is the default language at the site root. English lives in `/en/`. v2 remains untouched in `/workspace/webaur-v2/`.
+Finnish is the default language at the site root. English lives in `/en/`. Earlier versions remain untouched in `/workspace/webaur-site/` (v1), `/workspace/webaur-v2/` and `/workspace/webaur-v3/`.
+
+This revision rebuilds the Work page and the three case studies around new multi-page concept demos (Hale Barber Studio, Alto Detail, Maison Café). The demos were designed separately and are included as-is, aside from any bug fixes. Portfolio frames are fresh screenshots of those demos.
 
 ## Local preview (including the GitHub Pages subdirectory)
 
@@ -26,7 +28,6 @@ Open `http://127.0.0.1:8768/halden-barbers-demo/webaur/`.
 - Finnish (default): `index.html`, `services.html`, `work.html`, `about.html`, `contact.html`, `privacy.html`, `thanks.html`, `404.html`, and `work/*.html`
 - English: the same files under `en/`
 - Every studio page has an `hreflang` set (`fi`, `en`, `x-default` → Finnish) and a FI / EN switcher that maps to the counterpart page
-- French can be added later as `/fr/` without rebuilding the system
 - Concept demos keep their own brand language (they are fictional identities). Portfolio descriptions around them are translated.
 
 The Finnish copy was written to sound like natural professional Finnish, not a line-by-line machine translation. A native speaker should still proofread it before launch.
@@ -34,8 +35,14 @@ The Finnish copy was written to sound like natural professional Finnish, not a l
 ## Pages and demos
 
 - Studio pages as listed above, in both languages
-- Case studies: `work/barber-studio.html`, `work/detailing.html`, `work/maison-cafe.html` (and `en/work/…`)
-- Working concept demos: `demos/barber-studio/`, `demos/detailing/`, `demos/maison-cafe/` (`noindex`, labelled as concepts; booking buttons do not place a real booking)
+- Work (`work.html`, `en/work.html`): each concept is presented as a large, art-directed folio — desktop and mobile home previews, inner-page thumbnails, category, design direction, features, decisions, a live-demo link and a case-study link
+- Case studies: `work/barber-studio.html`, `work/detailing.html`, `work/maison-cafe.html` (and `en/work/…`) — brief, audience, brand identity (palette, type names, wordmark), a page-by-page walkthrough with desktop and mobile screenshots, features, design decisions, and a live demo link. All three are labelled as concept projects
+- Working concept demos (`noindex`, labelled as concepts; booking buttons do not place a real booking):
+  - `demos/barber-studio/` — Hale Barber Studio: home, services, barbers, gallery, visit
+  - `demos/detailing/` — Alto Detail: home, services, results (before/after sliders), process, contact
+  - `demos/maison-cafe/` — Maison Café: home, menu, story, visit
+
+Portfolio screenshots live in `images/work/{hale,alto,maison}/` as AVIF, WebP and JPEG, with `srcset` and width/height attributes.
 
 ## Deploy
 
@@ -91,9 +98,9 @@ Starter / Aloitus €490, Business / Yritys €890 (popular), Premium €1,490.
 
 ## Credits
 
-See `CREDITS.md` for every demo photograph, source URL and licence.
+See `CREDITS.md` for every demo photograph, source URL and licence, plus notes on derived “before” frames and unused earlier photos.
 
-Self-hosted typefaces: [Geist](https://vercel.com/font) (SIL Open Font License) and [Manrope](https://www.fontsquirrel.com/fonts/manrope) (SIL Open Font License).
+Self-hosted typefaces on the studio site: [Geist](https://vercel.com/font) (SIL Open Font License) and [Manrope](https://fonts.google.com/specimen/Manrope) (SIL Open Font License). Demo typefaces are loaded from Google Fonts; see `CREDITS.md`.
 
 ## What was not completed or not fully tested
 
@@ -102,5 +109,6 @@ Self-hosted typefaces: [Geist](https://vercel.com/font) (SIL Open Font License) 
 - Formspree is not yet connected, so a live submission has not been performed on production
 - A real domain, mailbox and legal entity were not connected
 - Concept demos are not fully translated (they are fictional brand sites)
+- Case-study type specimens use system stand-ins and say so, rather than loading every demo family on the studio site
+- The home page’s selected-work section is a compact teaser; the full folio lives on the Work page
 - Lighthouse scores are from a local server, not a CDN
-- drool.design could not be fully captured (the page returned an interstitial / timed out); principles were taken from the other references and from the studio’s publicly known typographic approach
