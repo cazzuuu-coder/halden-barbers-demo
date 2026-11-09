@@ -1,111 +1,106 @@
-# WEBAUR website (v2)
+# WEBAUR website (v3)
 
 Independent web design studio site — static HTML, CSS and JavaScript. No required build step.
 
-This folder is a complete redesign of the earlier v1 site in `/workspace/webaur-site/`. v1 is left untouched.
+Finnish is the default language at the site root. English lives in `/en/`. v2 remains untouched in `/workspace/webaur-v2/`.
 
-## Local preview
+## Local preview (including the GitHub Pages subdirectory)
 
-From this folder:
+The public project is hosted under a subdirectory:
+
+`/halden-barbers-demo/webaur/`
+
+All internal links, images, fonts, CSS, JavaScript and demos use relative paths so they work in that folder, not only at a domain root.
+
+To preview the same way:
 
 ```bash
-python3 -m http.server 8766 --bind 127.0.0.1
+# from a parent folder that contains halden-barbers-demo/webaur/
+python3 -m http.server 8768 --bind 127.0.0.1
 ```
 
-Open `http://127.0.0.1:8766/`. All internal links are relative so the site can also be served from a GitHub Pages project subfolder (for example `https://user.github.io/webaur-v2/`).
+Open `http://127.0.0.1:8768/halden-barbers-demo/webaur/`.
 
-## Pages
+## Languages
 
-- Studio: `index.html`, `services.html`, `work.html`, `about.html`, `contact.html`, `thanks.html`, `privacy.html`, `404.html`
-- Case studies: `work/barber-studio.html`, `work/detailing.html`, `work/maison-cafe.html`
-- Working concept demos: `demos/barber-studio/`, `demos/detailing/`, `demos/maison-cafe/`
+- Finnish (default): `index.html`, `services.html`, `work.html`, `about.html`, `contact.html`, `privacy.html`, `thanks.html`, `404.html`, and `work/*.html`
+- English: the same files under `en/`
+- Every studio page has an `hreflang` set (`fi`, `en`, `x-default` → Finnish) and a FI / EN switcher that maps to the counterpart page
+- French can be added later as `/fr/` without rebuilding the system
+- Concept demos keep their own brand language (they are fictional identities). Portfolio descriptions around them are translated.
 
-The three demos are independent design concepts, not paying-client work. Booking and reservation buttons scroll to a clearly labelled “concept — no real booking” note.
+The Finnish copy was written to sound like natural professional Finnish, not a line-by-line machine translation. A native speaker should still proofread it before launch.
+
+## Pages and demos
+
+- Studio pages as listed above, in both languages
+- Case studies: `work/barber-studio.html`, `work/detailing.html`, `work/maison-cafe.html` (and `en/work/…`)
+- Working concept demos: `demos/barber-studio/`, `demos/detailing/`, `demos/maison-cafe/` (`noindex`, labelled as concepts; booking buttons do not place a real booking)
 
 ## Deploy
 
-### Netlify (recommended for the contact form)
+### GitHub Pages (current host)
 
-1. Connect this folder as the site root (publish directory `.`, no build command).
-2. Netlify will detect the form in `contact.html` (`data-netlify="true"`, hidden `form-name`, honeypot `company-website`).
-3. In Netlify → Forms, confirm the `contact` form is listed and set the notification email to a real inbox.
-4. Successful submissions go to `thanks.html` (`action="thanks.html"`).
-5. `_redirects` maps unknown routes to `404.html`. `netlify.toml` sets basic security headers.
+Upload this folder so that it is served from `/halden-barbers-demo/webaur/`. There is no build command. GitHub Pages will not process the contact form — configure Formspree first (below).
+
+GitHub Pages uses the root `404.html` (Finnish) for unknown URLs. The English 404 is at `en/404.html`.
+
+### Custom domain
+
+After a domain is connected, point it at the host and serve this folder at the domain root (or keep the subfolder and update canonical URLs). Replace the placeholder host `https://webaur.com` in `sitemap.xml`, `robots.txt` and the canonical/hreflang/Open Graph tags. Then set a real mailbox and replace `hello@[your-domain]`.
+
+### Netlify
+
+Publish directory `.`, no build command. Netlify Forms will detect the form in `contact.html` and `en/contact.html`. Set a notification email. `_redirects` and `netlify.toml` are included.
 
 ### Cloudflare Pages
 
-1. Upload this folder, output directory `.`, no build command.
-2. Netlify Forms will **not** run on Cloudflare Pages. Connect Formspree (or another form endpoint) before launch — see below.
-3. `_headers` is included for Cloudflare/Netlify-style header files.
+Publish directory `.`, no build command. Use Formspree; Netlify Forms will not run.
 
-### GitHub Pages
+## Contact form
 
-Upload the folder (or `/docs`) and enable Pages. Use relative links as already written. The contact form will not send until you add Formspree or a similar endpoint.
+**Where it lives:** `contact.html` and `en/contact.html`. Shared behaviour is in `js/main.js`. The endpoint is configured in `js/form-config.js`.
 
-## Contact form configuration
+**GitHub Pages cannot process form posts.** Until a sending service is connected, the form validates the fields and then shows an honest message: nothing was sent. It never claims a successful send.
 
-**Where it lives:** `contact.html` (the `<form>` element). Prefill of the optional budget field from `?package=starter|business|premium` is in `js/main.js`.
-
-**Netlify Forms (default):** already marked up. After deploy on Netlify, submit a test from the live URL and check the Forms inbox. The form does not pretend a message was sent unless the host actually accepted the POST and showed `thanks.html`. Opening `thanks.html` directly does not send anything; the page says so.
-
-**Formspree (Cloudflare Pages, GitHub Pages, or any static host):**
+**Formspree (recommended for GitHub Pages and Cloudflare Pages):**
 
 1. Create a form at [formspree.io](https://formspree.io/) and copy the endpoint, e.g. `https://formspree.io/f/xxxxxxxx`.
-2. In `contact.html`, set `action="https://formspree.io/f/xxxxxxxx"` and `method="POST"`.
-3. You may keep `data-netlify` attributes; they are ignored off Netlify. You can also remove them.
-4. In Formspree, set the thank-you redirect to your live `thanks.html` URL, or keep Formspree’s own confirmation page.
-5. Record the endpoint in this README once it exists: `Formspree endpoint: [not configured]`.
+2. Set `window.WEBAUR_FORM.formspree` in `js/form-config.js`.
+3. In Formspree, set the thank-you redirect to your live `thanks.html` (or `en/thanks.html`) URL, or keep Formspree’s confirmation page.
+4. Record the endpoint here once it exists: `Formspree endpoint: [not configured]`.
 
-Do not add a JavaScript “message sent” alert that fires without a real submission.
+**Netlify Forms:** leave `formspree` as an empty string and deploy to Netlify. The forms already include `data-netlify`, a honeypot and a consent field.
 
-## Domain
+Budget can be pre-filled with `?package=starter|business|premium#form`.
 
-Canonical URLs and `sitemap.xml` / `robots.txt` use the placeholder domain `https://webaur.com`. That domain was not attached to this folder at build time. Earlier registry checks (9 November 2026, Europe/Paris) suggested `webaur.com` and `webaur.fi` were not in the respective RDAP results at that moment — that is not a reservation or a trademark clearance. Point DNS at Netlify or Cloudflare Pages after the name is registered, then replace the placeholder email.
+## Pricing
+
+Starter / Aloitus €490, Business / Yritys €890 (popular), Premium €1,490.
+
+**Prices excl. VAT (Finnish VAT 25.5% added).** The final price depends on the agreed scope. Domain registration and hosting are **not** included, nor are photography or copywriting beyond the agreed scope, ongoing maintenance, or features outside the chosen package.
 
 ## Placeholders (replace before launch)
 
-- Email shown as **`hello@[your-domain]`**, visually marked as a placeholder — not a live inbox. Do not present `hello@webaur.com` as active until a mailbox exists.
-- No phone number or street address is listed.
-- Privacy policy: legal name, Y-tunnus, postal address, and analytics provider are marked with placeholders in `privacy.html`.
-- Canonical / Open Graph / sitemap host: `https://webaur.com`.
-- Formspree endpoint: not configured (only needed off Netlify).
-- Café and shop addresses in the demos are fictional and labelled as such.
-
-## Pricing copy
-
-Starter €490, Business €890, Premium €1,490. **Prices excl. VAT (Finnish VAT 25.5% added).** The final price depends on the scope of the project.
-
-## Language
-
-The site is in English. A small `EN` label in the header notes that Finnish can be added later. There is no `/en/` tree in this version.
+- Email shown as **`hello@[your-domain]`**, visually marked — not a live inbox
+- No phone number or street address
+- Privacy policy: legal name, Y-tunnus, postal address, and analytics provider
+- Canonical / Open Graph / sitemap host: `https://webaur.com`
+- Formspree endpoint: not configured
+- Café, shop and workshop locations in the demos are fictional and labelled as such
 
 ## Credits
 
 See `CREDITS.md` for every demo photograph, source URL and licence.
 
+Self-hosted typefaces: [Geist](https://vercel.com/font) (SIL Open Font License) and [Manrope](https://www.fontsquirrel.com/fonts/manrope) (SIL Open Font License).
+
 ## What was not completed or not fully tested
 
-- Unsplash photographer names could not be confirmed from live photo pages (pages were blocked). IDs and source URLs are listed; names should be filled in when those pages can be opened.
-- Finnish language pages were not built.
-- A real domain, mailbox and legal entity were not connected.
-- Lighthouse and Playwright results from the local preview are recorded in the delivery report. Scores can change on a live CDN.
-- No production analytics or cookie banner (none is configured).
-
-## QA and Lighthouse (local, 9 November 2026, Europe/Paris)
-
-Playwright was run on every studio page and all three demos at 390, 768 and 1440 CSS pixels: no console errors, no broken links or images (after lazy images were scrolled into view), no horizontal overflow (`scrollWidth > clientWidth`), mobile menus opened and closed, and internal CTAs resolved.
-
-Lighthouse (`npx lighthouse` with headless Chrome) on a local `python3 -m http.server`, after a contrast fix on secondary text:
-
-| Page | Form | Performance | Accessibility | Best Practices | SEO |
-| --- | --- | ---: | ---: | ---: | ---: |
-| Home | mobile | 96 | 100 | 100 | 100 |
-| Home | desktop | 100 | 100 | 100 | 100 |
-| Work | mobile | 99 | 100 | 100 | 100 |
-| Work | desktop | 100 | 100 | 100 | 100 |
-| Contact | mobile | 100 | 100 | 100 | 100 |
-| Contact | desktop | 100 | 100 | 100 | 100 |
-| Hale Barber demo | mobile | 100 | 100 | 100 | 66 |
-| Hale Barber demo | desktop | 100 | 100 | 100 | 66 |
-
-The demo SEO score is lower because those pages are marked `noindex` (they are concept projects, not studio marketing pages). Secondary text colour was darkened from the brief’s `#777A74` to `#5E615C` so body copy meets WCAG AA contrast on `#F7F7F4` (the original pair is about 4.06:1).
+- A native Finnish speaker should proofread all Finnish studio copy
+- Unsplash photographer names could not always be confirmed from live photo pages (IDs and licences are in CREDITS.md)
+- Formspree is not yet connected, so a live submission has not been performed on production
+- A real domain, mailbox and legal entity were not connected
+- Concept demos are not fully translated (they are fictional brand sites)
+- Lighthouse scores are from a local server, not a CDN
+- drool.design could not be fully captured (the page returned an interstitial / timed out); principles were taken from the other references and from the studio’s publicly known typographic approach

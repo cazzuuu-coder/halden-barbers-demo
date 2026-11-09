@@ -2,8 +2,8 @@ import { chromium } from "/workspace/node_modules/playwright/index.mjs";
 import fs from "fs";
 import path from "path";
 
-const BASE = "http://127.0.0.1:8766/";
-const ROOT = "/workspace/webaur-v2";
+const BASE = "http://127.0.0.1:8768/halden-barbers-demo/webaur/";
+const ROOT = "/workspace/webaur-v3";
 const PREV = path.join(ROOT, "previews");
 const CRIT = path.join(ROOT, "_tools/critique");
 fs.mkdirSync(PREV, { recursive: true });
@@ -13,14 +13,15 @@ const PAGES = [
   "index.html","services.html","work.html","about.html","contact.html",
   "thanks.html","privacy.html","404.html",
   "work/barber-studio.html","work/detailing.html","work/maison-cafe.html",
+  "en/index.html","en/services.html","en/work.html","en/about.html","en/contact.html",
+  "en/thanks.html","en/privacy.html","en/404.html",
+  "en/work/barber-studio.html","en/work/detailing.html","en/work/maison-cafe.html",
   "demos/barber-studio/index.html","demos/detailing/index.html","demos/maison-cafe/index.html",
 ];
 const WIDTHS = [390, 768, 1440];
-
-function join(base, rel) { return new URL(rel, base).href; }
+const join = (base, rel) => new URL(rel, base).href;
 
 const results = { pages: {}, previews: [], failures: [] };
-
 const browser = await chromium.launch({
   executablePath: "/usr/bin/google-chrome",
   args: ["--no-sandbox", "--disable-dev-shm-usage", "--hide-scrollbars"],
@@ -32,7 +33,7 @@ for (const width of WIDTHS) {
   for (const rel of PAGES) {
     const url = join(BASE, rel);
     const key = `${rel}@${width}`;
-    const rec = { url, width, console: [], broken: [], overflow: false, menu: null, cta: [] };
+    const rec = { url, width, console: [], broken: [], overflow: false, menu: null, switcher: null, cta: [] };
     const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: 1 });
     const page = await context.newPage();
     const logs = [];
@@ -49,7 +50,7 @@ for (const width of WIDTHS) {
       const h = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
       for (let y = 0; y < h; y += 700) {
         window.scrollTo(0, y);
-        await new Promise((r) => setTimeout(r, 40));
+        await new Promise((r) => setTimeout(r, 30));
       }
       window.scrollTo(0, 0);
       await Promise.all(Array.from(document.images).map((img) => {
@@ -57,7 +58,7 @@ for (const width of WIDTHS) {
         return img.decode ? img.decode().catch(() => null) : Promise.resolve();
       }));
     });
-    await page.waitForTimeout(150);
+    await page.waitForTimeout(120);
     rec.console = logs.filter((e) => !e.text.includes("favicon.ico"));
     const imgs = await page.evaluate(() =>
       Array.from(document.images).map((img) => ({ src: img.currentSrc || img.src, ok: img.complete && img.naturalWidth > 0 }))
@@ -75,7 +76,7 @@ for (const width of WIDTHS) {
       }
       const abs = join(url, href);
       const host = new URL(abs).host;
-      if (host !== "127.0.0.1:8766") {
+      if (host !== "127.0.0.1:8768") {
         rec.cta.push({ href, ok: true, external: true });
         continue;
       }
@@ -122,8 +123,33 @@ for (const width of WIDTHS) {
           closed: !closed.open && closed.expanded === "false",
           after, closed_state: closed,
         };
-      } else {
+      } else if (!rel.startsWith("demos/") && !rel.includes("thanks") /* demos also have menu */) {
         rec.menu = { opened: false, closed: false, error: "toggle not visible" };
+      }
+    }
+    // language switcher (studio pages only)
+    if (!rel.startsWith("demos/")) {
+      const sw = await page.evaluate(() => {
+        const root = document.querySelector(".lang-switch");
+        if (!root) return { present: false };
+        const fi = root.querySelector('a[hreflang="fi"], a[lang="fi"], span[aria-current="true"]');
+        const en = root.querySelector('a[hreflang="en"], a[lang="en"], span[aria-current="true"]');
+        const links = Array.from(root.querySelectorAll("a")).map((a) => a.getAttribute("href"));
+        return { present: true, links, htmlLang: document.documentElement.lang };
+      });
+      rec.switcher = sw;
+      if (sw.present && (!sw.links || sw.links.length < 1)) {
+        rec.switcher.ok = false;
+      } else if (sw.present) {
+        // resolve counterpart
+        rec.switcher.ok = true;
+        for (const h of sw.links) {
+          const abs = join(url, h);
+          const r = await context.request.get(abs, { timeout: 15000 });
+          if (r.status() >= 400) { rec.switcher.ok = false; rec.broken.push({ url: h, status: r.status(), kind: "switcher" }); }
+        }
+      } else {
+        rec.switcher = { present: false, ok: false };
       }
     }
     results.pages[key] = rec;
@@ -132,15 +158,17 @@ for (const width of WIDTHS) {
     if (rec.broken.length) issues.push("broken");
     if (rec.overflow) issues.push("overflow");
     if (width === 390 && rec.menu && !(rec.menu.opened && rec.menu.closed)) issues.push("menu");
-    if (issues.length) results.failures.push({ key, issues, broken: rec.broken, overflow: rec.overflow_detail, menu: rec.menu, console: rec.console });
-    console.log(`${key.padEnd(42)} status=${rec.status} issues=${issues.join(",") || "ok"} broken=${rec.broken.length} overflow=${rec.overflow}`);
+    if (rec.switcher && rec.switcher.ok === false) issues.push("switcher");
+    if (issues.length) results.failures.push({ key, issues, broken: rec.broken, overflow: rec.overflow_detail, menu: rec.menu, switcher: rec.switcher, console: rec.console });
+    console.log(`${key.padEnd(46)} status=${rec.status} issues=${issues.join(",") || "ok"}`);
     await context.close();
   }
 }
 
 const shots = [
-  ["index.html", 1440, 900, "preview-home-desktop.png"],
-  ["index.html", 390, 844, "preview-home-mobile.png"],
+  ["en/index.html", 1440, 900, "preview-home-desktop-en.png"],
+  ["en/index.html", 390, 844, "preview-home-mobile-en.png"],
+  ["index.html", 1440, 900, "preview-home-desktop-fi.png"],
   ["work.html", 1440, 900, "preview-work-desktop.png"],
   ["demos/barber-studio/index.html", 1440, 900, "preview-demo-barber-desktop.png"],
   ["demos/detailing/index.html", 1440, 900, "preview-demo-detailing-desktop.png"],
@@ -150,7 +178,7 @@ for (const [rel, w, h, name] of shots) {
   const context = await browser.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: 2 });
   const page = await context.newPage();
   await page.goto(join(BASE, rel), { waitUntil: "networkidle", timeout: 45000 });
-  await page.waitForTimeout(400);
+  await page.waitForTimeout(500);
   const dest = path.join(PREV, name);
   await page.screenshot({ path: dest, fullPage: false });
   await page.screenshot({ path: path.join(CRIT, name.replace("preview-", "full-")), fullPage: true });

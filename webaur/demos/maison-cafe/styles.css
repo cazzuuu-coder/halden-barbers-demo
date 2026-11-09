@@ -49,3 +49,9 @@ footer{padding:28px 0 40px;display:flex;justify-content:space-between;font-size:
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 
 .nav-links{list-style:none;}
+
+.featured,.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:28px}
+.gallery{grid-template-columns:1fr 1fr}
+.featured img,.gallery img{width:100%;height:260px;object-fit:cover}
+.featured figcaption{margin-top:8px;font-size:14px}
+@media(max-width:767px){.featured,.gallery{grid-template-columns:1fr}}

@@ -1,7 +1,7 @@
 {
   "pages": {
     "index.html@390": {
-      "url": "http://127.0.0.1:8766/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/index.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -18,6 +18,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/index.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -51,6 +59,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -125,6 +138,11 @@
           "status": 200
         },
         {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "index.html",
           "ok": true,
           "status": 200
@@ -171,6 +189,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         }
@@ -184,7 +212,7 @@
       }
     },
     "services.html@390": {
-      "url": "http://127.0.0.1:8766/services.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/services.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -201,6 +229,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/services.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -238,6 +274,11 @@
           "status": 200
         },
         {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
@@ -254,6 +295,11 @@
         },
         {
           "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
           "ok": true,
           "status": 200
         },
@@ -311,6 +357,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -322,7 +378,7 @@
       }
     },
     "work.html@390": {
-      "url": "http://127.0.0.1:8766/work.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -339,6 +395,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/work.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -372,6 +436,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
           "ok": true,
           "status": 200
         },
@@ -464,6 +533,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -475,7 +554,7 @@
       }
     },
     "about.html@390": {
-      "url": "http://127.0.0.1:8766/about.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/about.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -492,6 +571,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/about.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -525,6 +612,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         },
@@ -585,6 +677,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         }
@@ -598,7 +700,7 @@
       }
     },
     "contact.html@390": {
-      "url": "http://127.0.0.1:8766/contact.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/contact.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -615,6 +717,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/contact.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -648,6 +758,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         },
@@ -708,6 +823,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         }
@@ -721,7 +846,7 @@
       }
     },
     "thanks.html@390": {
-      "url": "http://127.0.0.1:8766/thanks.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/thanks.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -738,6 +863,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/thanks.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -771,6 +904,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         },
@@ -831,6 +969,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         }
@@ -844,7 +992,7 @@
       }
     },
     "privacy.html@390": {
-      "url": "http://127.0.0.1:8766/privacy.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/privacy.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -861,6 +1009,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/privacy.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -894,6 +1050,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         },
@@ -949,6 +1110,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         }
@@ -962,7 +1133,7 @@
       }
     },
     "404.html@390": {
-      "url": "http://127.0.0.1:8766/404.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/404.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -979,6 +1150,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/404.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -1016,12 +1195,22 @@
           "status": 200
         },
         {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
         },
         {
           "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -1074,6 +1263,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -1085,7 +1284,7 @@
       }
     },
     "work/barber-studio.html@390": {
-      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/barber-studio.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1102,6 +1301,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/barber-studio.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -1135,6 +1342,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
           "ok": true,
           "status": 200
         },
@@ -1212,6 +1424,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -1223,7 +1445,7 @@
       }
     },
     "work/detailing.html@390": {
-      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/detailing.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1240,6 +1462,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/detailing.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -1273,6 +1503,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
           "ok": true,
           "status": 200
         },
@@ -1350,6 +1585,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -1361,7 +1606,7 @@
       }
     },
     "work/maison-cafe.html@390": {
-      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/maison-cafe.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1378,6 +1623,14 @@
           "open": false,
           "expanded": "false"
         }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/maison-cafe.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
       },
       "cta": [
         {
@@ -1411,6 +1664,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
           "ok": true,
           "status": 200
         },
@@ -1488,6 +1746,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -1498,8 +1766,8 @@
         "clientWidth": 390
       }
     },
-    "demos/barber-studio/index.html@390": {
-      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+    "en/index.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/index.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1517,6 +1785,1773 @@
           "expanded": "false"
         }
       },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../index.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/services.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/services.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../services.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/work.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../work.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/about.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/about.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../about.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/contact.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/contact.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../contact.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/thanks.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/thanks.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../thanks.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/thanks.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/privacy.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/privacy.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../privacy.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/404.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/404.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../404.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/404.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/work/barber-studio.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/barber-studio.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/barber-studio.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/work/detailing.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/detailing.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/detailing.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "en/work/maison-cafe.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/maison-cafe.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/maison-cafe.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 390,
+        "clientWidth": 390
+      }
+    },
+    "demos/barber-studio/index.html@390": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/barber-studio/index.html",
+      "width": 390,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": {
+        "opened": true,
+        "closed": true,
+        "after": {
+          "open": true,
+          "display": "flex",
+          "expanded": "true"
+        },
+        "closed_state": {
+          "open": false,
+          "expanded": "false"
+        }
+      },
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -1561,7 +3596,7 @@
       }
     },
     "demos/detailing/index.html@390": {
-      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/detailing/index.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1579,6 +3614,7 @@
           "expanded": "false"
         }
       },
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -1627,7 +3663,7 @@
       }
     },
     "demos/maison-cafe/index.html@390": {
-      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/maison-cafe/index.html",
       "width": 390,
       "console": [],
       "broken": [],
@@ -1645,6 +3681,7 @@
           "expanded": "false"
         }
       },
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -1681,12 +3718,20 @@
       }
     },
     "index.html@768": {
-      "url": "http://127.0.0.1:8766/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/index.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/index.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -1719,6 +3764,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -1793,6 +3843,11 @@
           "status": 200
         },
         {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "index.html",
           "ok": true,
           "status": 200
@@ -1839,6 +3894,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         }
@@ -1852,12 +3917,20 @@
       }
     },
     "services.html@768": {
-      "url": "http://127.0.0.1:8766/services.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/services.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/services.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -1894,6 +3967,11 @@
           "status": 200
         },
         {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
@@ -1910,6 +3988,11 @@
         },
         {
           "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
           "ok": true,
           "status": 200
         },
@@ -1967,6 +4050,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -1978,12 +4071,20 @@
       }
     },
     "work.html@768": {
-      "url": "http://127.0.0.1:8766/work.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/work.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2016,6 +4117,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
           "ok": true,
           "status": 200
         },
@@ -2108,6 +4214,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -2119,12 +4235,20 @@
       }
     },
     "about.html@768": {
-      "url": "http://127.0.0.1:8766/about.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/about.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/about.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2157,6 +4281,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         },
@@ -2217,6 +4346,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         }
@@ -2230,12 +4369,20 @@
       }
     },
     "contact.html@768": {
-      "url": "http://127.0.0.1:8766/contact.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/contact.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/contact.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2268,6 +4415,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         },
@@ -2328,6 +4480,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         }
@@ -2341,12 +4503,20 @@
       }
     },
     "thanks.html@768": {
-      "url": "http://127.0.0.1:8766/thanks.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/thanks.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/thanks.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2379,6 +4549,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         },
@@ -2439,6 +4614,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         }
@@ -2452,12 +4637,20 @@
       }
     },
     "privacy.html@768": {
-      "url": "http://127.0.0.1:8766/privacy.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/privacy.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/privacy.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2490,6 +4683,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         },
@@ -2545,6 +4743,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         }
@@ -2558,12 +4766,20 @@
       }
     },
     "404.html@768": {
-      "url": "http://127.0.0.1:8766/404.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/404.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/404.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2600,12 +4816,22 @@
           "status": 200
         },
         {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
         },
         {
           "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -2658,6 +4884,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -2669,12 +4905,20 @@
       }
     },
     "work/barber-studio.html@768": {
-      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/barber-studio.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/barber-studio.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2707,6 +4951,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
           "ok": true,
           "status": 200
         },
@@ -2784,6 +5033,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -2795,12 +5054,20 @@
       }
     },
     "work/detailing.html@768": {
-      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/detailing.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/detailing.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2833,6 +5100,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
           "ok": true,
           "status": 200
         },
@@ -2910,6 +5182,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -2921,12 +5203,20 @@
       }
     },
     "work/maison-cafe.html@768": {
-      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/maison-cafe.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/maison-cafe.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -2959,6 +5249,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
           "ok": true,
           "status": 200
         },
@@ -3036,6 +5331,1650 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/index.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/index.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../index.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/services.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/services.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../services.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/work.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../work.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/about.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/about.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../about.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/contact.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/contact.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../contact.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/thanks.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/thanks.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../thanks.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/thanks.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/privacy.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/privacy.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../privacy.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/404.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/404.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../404.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/404.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/work/barber-studio.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/barber-studio.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/barber-studio.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/work/detailing.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/detailing.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/detailing.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 768,
+        "clientWidth": 768
+      }
+    },
+    "en/work/maison-cafe.html@768": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/maison-cafe.html",
+      "width": 768,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/maison-cafe.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -3047,12 +6986,13 @@
       }
     },
     "demos/barber-studio/index.html@768": {
-      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/barber-studio/index.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -3097,12 +7037,13 @@
       }
     },
     "demos/detailing/index.html@768": {
-      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/detailing/index.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -3151,12 +7092,13 @@
       }
     },
     "demos/maison-cafe/index.html@768": {
-      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/maison-cafe/index.html",
       "width": 768,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -3193,12 +7135,20 @@
       }
     },
     "index.html@1440": {
-      "url": "http://127.0.0.1:8766/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/index.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/index.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3231,6 +7181,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -3305,6 +7260,11 @@
           "status": 200
         },
         {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "index.html",
           "ok": true,
           "status": 200
@@ -3351,6 +7311,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         }
@@ -3364,12 +7334,20 @@
       }
     },
     "services.html@1440": {
-      "url": "http://127.0.0.1:8766/services.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/services.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/services.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3406,6 +7384,11 @@
           "status": 200
         },
         {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
@@ -3422,6 +7405,11 @@
         },
         {
           "href": "contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
           "ok": true,
           "status": 200
         },
@@ -3479,6 +7467,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/services.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -3490,12 +7488,20 @@
       }
     },
     "work.html@1440": {
-      "url": "http://127.0.0.1:8766/work.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/work.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3528,6 +7534,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
           "ok": true,
           "status": 200
         },
@@ -3620,6 +7631,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/work.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -3631,12 +7652,20 @@
       }
     },
     "about.html@1440": {
-      "url": "http://127.0.0.1:8766/about.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/about.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/about.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3669,6 +7698,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         },
@@ -3729,6 +7763,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/about.html",
           "ok": true,
           "status": 200
         }
@@ -3742,12 +7786,20 @@
       }
     },
     "contact.html@1440": {
-      "url": "http://127.0.0.1:8766/contact.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/contact.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/contact.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3780,6 +7832,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         },
@@ -3840,6 +7897,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/contact.html",
           "ok": true,
           "status": 200
         }
@@ -3853,12 +7920,20 @@
       }
     },
     "thanks.html@1440": {
-      "url": "http://127.0.0.1:8766/thanks.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/thanks.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/thanks.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -3891,6 +7966,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         },
@@ -3951,6 +8031,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/thanks.html",
           "ok": true,
           "status": 200
         }
@@ -3964,12 +8054,20 @@
       }
     },
     "privacy.html@1440": {
-      "url": "http://127.0.0.1:8766/privacy.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/privacy.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/privacy.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -4002,6 +8100,11 @@
         },
         {
           "href": "contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         },
@@ -4057,6 +8160,16 @@
         },
         {
           "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/privacy.html",
           "ok": true,
           "status": 200
         }
@@ -4070,12 +8183,20 @@
       }
     },
     "404.html@1440": {
-      "url": "http://127.0.0.1:8766/404.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/404.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "en/404.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -4112,12 +8233,22 @@
           "status": 200
         },
         {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
           "href": "contact.html",
           "ok": true,
           "status": 200
         },
         {
           "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/index.html",
           "ok": true,
           "status": 200
         },
@@ -4170,6 +8301,16 @@
           "href": "privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "en/404.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -4181,12 +8322,20 @@
       }
     },
     "work/barber-studio.html@1440": {
-      "url": "http://127.0.0.1:8766/work/barber-studio.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/barber-studio.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/barber-studio.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -4219,6 +8368,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
           "ok": true,
           "status": 200
         },
@@ -4296,6 +8450,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -4307,12 +8471,20 @@
       }
     },
     "work/detailing.html@1440": {
-      "url": "http://127.0.0.1:8766/work/detailing.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/detailing.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/detailing.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -4345,6 +8517,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
           "ok": true,
           "status": 200
         },
@@ -4422,6 +8599,16 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -4433,12 +8620,20 @@
       }
     },
     "work/maison-cafe.html@1440": {
-      "url": "http://127.0.0.1:8766/work/maison-cafe.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/work/maison-cafe.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../en/work/maison-cafe.html"
+        ],
+        "htmlLang": "fi",
+        "ok": true
+      },
       "cta": [
         {
           "href": "#content",
@@ -4471,6 +8666,11 @@
         },
         {
           "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
           "ok": true,
           "status": 200
         },
@@ -4548,6 +8748,1650 @@
           "href": "../privacy.html",
           "ok": true,
           "status": 200
+        },
+        {
+          "href": "../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/index.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/index.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../index.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/services.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/services.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../services.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=starter#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=business#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html?package=premium#form",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/work.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../work.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/about.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/about.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../about.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/contact.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/contact.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../contact.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/thanks.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/thanks.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../thanks.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../thanks.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/thanks.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/privacy.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/privacy.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../privacy.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/404.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/404.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../404.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../404.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../en/404.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/work/barber-studio.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/barber-studio.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/barber-studio.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/barber-studio/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/barber-studio.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/work/detailing.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/detailing.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/detailing.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/detailing/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/detailing.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/detailing.html",
+          "ok": true,
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "overflow_detail": {
+        "doc": false,
+        "body": false,
+        "scrollWidth": 1440,
+        "clientWidth": 1440
+      }
+    },
+    "en/work/maison-cafe.html@1440": {
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/en/work/maison-cafe.html",
+      "width": 1440,
+      "console": [],
+      "broken": [],
+      "overflow": false,
+      "menu": null,
+      "switcher": {
+        "present": true,
+        "links": [
+          "../../work/maison-cafe.html"
+        ],
+        "htmlLang": "en",
+        "ok": true
+      },
+      "cta": [
+        {
+          "href": "#content",
+          "ok": true
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../demos/maison-cafe/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/index.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/about.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/contact.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#design",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#development",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/services.html#maintenance",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/privacy.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../work/maison-cafe.html",
+          "ok": true,
+          "status": 200
+        },
+        {
+          "href": "../../en/work/maison-cafe.html",
+          "ok": true,
+          "status": 200
         }
       ],
       "status": 200,
@@ -4559,12 +10403,13 @@
       }
     },
     "demos/barber-studio/index.html@1440": {
-      "url": "http://127.0.0.1:8766/demos/barber-studio/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/barber-studio/index.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -4609,12 +10454,13 @@
       }
     },
     "demos/detailing/index.html@1440": {
-      "url": "http://127.0.0.1:8766/demos/detailing/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/detailing/index.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -4663,12 +10509,13 @@
       }
     },
     "demos/maison-cafe/index.html@1440": {
-      "url": "http://127.0.0.1:8766/demos/maison-cafe/index.html",
+      "url": "http://127.0.0.1:8768/halden-barbers-demo/webaur/demos/maison-cafe/index.html",
       "width": 1440,
       "console": [],
       "broken": [],
       "overflow": false,
       "menu": null,
+      "switcher": null,
       "cta": [
         {
           "href": "#main",
@@ -4706,12 +10553,13 @@
     }
   },
   "previews": [
-    "/workspace/webaur-v2/previews/preview-home-desktop.png",
-    "/workspace/webaur-v2/previews/preview-home-mobile.png",
-    "/workspace/webaur-v2/previews/preview-work-desktop.png",
-    "/workspace/webaur-v2/previews/preview-demo-barber-desktop.png",
-    "/workspace/webaur-v2/previews/preview-demo-detailing-desktop.png",
-    "/workspace/webaur-v2/previews/preview-demo-maison-desktop.png"
+    "/workspace/webaur-v3/previews/preview-home-desktop-en.png",
+    "/workspace/webaur-v3/previews/preview-home-mobile-en.png",
+    "/workspace/webaur-v3/previews/preview-home-desktop-fi.png",
+    "/workspace/webaur-v3/previews/preview-work-desktop.png",
+    "/workspace/webaur-v3/previews/preview-demo-barber-desktop.png",
+    "/workspace/webaur-v3/previews/preview-demo-detailing-desktop.png",
+    "/workspace/webaur-v3/previews/preview-demo-maison-desktop.png"
   ],
   "failures": []
 }

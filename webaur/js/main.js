@@ -40,19 +40,70 @@
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
   }
+  if (reduce) document.querySelectorAll(".reveal").forEach(function (el) { el.style.animation = "none"; });
 
-  // Preselect budget when arriving from a package button.
   var params = new URLSearchParams(window.location.search);
   var pkg = (params.get("package") || "").toLowerCase();
   var budget = document.getElementById("budget");
   if (budget && pkg) {
-    var map = {
-      starter: "Starter — around €490 + VAT",
-      business: "Business — around €890 + VAT",
-      premium: "Premium — around €1,490 + VAT"
-    };
-    if (map[pkg]) budget.value = map[pkg];
+    var options = Array.from(budget.options);
+    var found = options.find(function (o) { return (o.value || "").toLowerCase().indexOf(pkg) !== -1; });
+    if (found) budget.value = found.value;
   }
 
-  if (reduce) document.querySelectorAll(".reveal").forEach(function (el) { el.style.animation = "none"; });
+  var form = document.querySelector("form[name='contact']");
+  if (form) {
+    var cfg = window.WEBAUR_FORM || {};
+    var endpoint = (cfg.formspree || "").trim();
+    var alertBox = document.getElementById("form-status");
+    var onNetlify = /netlify\.app$|netlify\.com$/.test(location.hostname) || document.documentElement.hasAttribute("data-netlify-host");
+    if (endpoint) {
+      form.setAttribute("action", endpoint);
+      form.setAttribute("method", "POST");
+    }
+
+    function msg(el, text) {
+      var err = el.parentElement.querySelector(".field-error");
+      if (!err) {
+        err = document.createElement("p");
+        err.className = "field-error";
+        err.id = el.id + "-error";
+        el.parentElement.appendChild(err);
+      }
+      el.setAttribute("aria-invalid", text ? "true" : "false");
+      if (text) el.setAttribute("aria-describedby", err.id);
+      else el.removeAttribute("aria-describedby");
+      err.textContent = text || "";
+      err.hidden = !text;
+    }
+
+    var i18n = document.documentElement.lang === "fi" ? {
+      required: "Tämä kenttä on pakollinen.",
+      email: "Anna kelvollinen sähköpostiosoite.",
+      consent: "Tarvitsemme suostumuksesi, jotta voimme vastata viestiisi.",
+      unconfigured: "Lomaketta ei ole vielä kytketty lähetyspalveluun. Se toimii, kun Formspree-osoite on lisätty tiedostoon js/form-config.js, tai kun sivusto julkaistaan Netlifyyn. Mitään viestiä ei lähetetty."
+    } : {
+      required: "This field is required.",
+      email: "Please enter a valid email address.",
+      consent: "Please confirm we may use this information to reply.",
+      unconfigured: "This form is not connected to a sending service yet. It will work once a Formspree endpoint is added in js/form-config.js, or when the site is hosted on Netlify. No message was sent."
+    };
+
+    form.addEventListener("submit", function (e) {
+      var ok = true;
+      var required = form.querySelectorAll("[required]");
+      required.forEach(function (el) {
+        if (el.type === "checkbox") {
+          if (!el.checked) { msg(el, i18n.consent); ok = false; } else msg(el, "");
+        } else if (!el.value.trim()) { msg(el, i18n.required); ok = false; }
+        else if (el.type === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value)) { msg(el, i18n.email); ok = false; }
+        else msg(el, "");
+      });
+      if (!ok) { e.preventDefault(); return; }
+      if (!endpoint && !onNetlify) {
+        e.preventDefault();
+        if (alertBox) { alertBox.hidden = false; alertBox.textContent = i18n.unconfigured; alertBox.focus(); }
+      }
+    });
+  }
 })();
